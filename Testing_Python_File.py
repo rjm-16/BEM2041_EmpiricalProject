@@ -46,18 +46,23 @@ with open('Super_Six_Data.csv', 'w') as file:
     
     # Iterate through the rows to extract the data
     for row in table_rows:
-        print(row)
+        #print(row)
         
         # Empty list to add the rows data to
         row_contents = []
         
         # Retrieving the name and team elements as it is not in a data field
         name_span = row.find('span', class_='fiso-lab-table__row-heading-primary-data')
+        #print(name_span)
+        
         team_span = row.find('span', class_='fiso-lab-table__row-heading-secondary-data')
+        
         
         # If both name_span and team_span found extract the text from the span elements stripping leading/trailing whitespace
         if name_span and team_span:
-            name = name_span.get_text(strip=True)
+            name = name_span.get("title")
+            #name = name_span.get_text(strip=True)
+            print(name)
             team = strip_brackets(team_span.get_text(strip=True))
             # Append the name and club to the row_contents list to then be added to the csv file
             row_contents.append(name)

@@ -88,17 +88,12 @@ def extracting_data():
                 
             # If both name_span and team_span found extract the text from the span elements stripping leading/trailing whitespace
             if name_span and team_span:
-                name = name_span.get_text(strip=True)
+                name = name_span.get("title")
                 team = strip_brackets(team_span.get_text(strip=True))
                 # Append the name and club to the row_contents list to then be added to the csv file
                 row_contents.append(name)
                 row_contents.append(team)
                 
-            # For the first row which is the titles to ensure another column isn't added
-            #elif row.find('span', class_='fiso-lab-table__column-heading-text'):
-            #    None
-               
-            # If name_span and team_span not found assign value of not found to 'name' and 'team'
             else:
                 row_contents.append("Name not found")
                 row_contents.append("Team not found")
