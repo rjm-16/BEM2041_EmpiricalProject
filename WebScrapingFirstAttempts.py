@@ -37,7 +37,7 @@ def extracting_titles():
             print("Table not found.")
     
         # table heading lines
-        th_elements = TAB.find('thead').find_all('th')
+        th_elements = TAB.find_all('th')
     
         # Extract the titles from the title attribute of the <button> elements inside the <th> elements
         column_titles = [th.find('button').get('title') for th in th_elements if th.find('button')]
