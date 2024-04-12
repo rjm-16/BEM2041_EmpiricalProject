@@ -89,7 +89,7 @@ def extracting_data():
             # If both name_span and team_span found extract the text from the span elements stripping leading/trailing whitespace
             if name_span and team_span:
                 name = name_span.get("title")
-                team = strip_brackets(team_span.get_text(strip=True))
+                team = team_span.get("title")
                 # Append the name and club to the row_contents list to then be added to the csv file
                 row_contents.append(name)
                 row_contents.append(team)
@@ -119,7 +119,7 @@ def extracting_data():
 #&category=attack&pageNumber=2
 categories = ['attack', 'defence', 'kicking']
 for category in categories:
-    with open(f'super_six_{category}_data.csv', 'w') as file:
+    with open(f'super_rugby_{category}_data.csv', 'w') as file:
         url_cat = url_root+'&category='+category
         target = url_cat
         extracting_titles()

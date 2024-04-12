@@ -1,74 +1,89 @@
 .mode column
-.width 25 5
 .header ON
 
 -- Try table remove to be safe
-DROP TABLE IF EXISTS attack;
-DROP TABLE IF EXISTS kicking;
-DROP TABLE IF EXISTS defence;
+DROP TABLE IF EXISTS Attack;
+DROP TABLE IF EXISTS Kicking;
+DROP TABLE IF EXISTS Defence;
+DROP TABLE IF EXISTS Ladder;
 
 -- Create a schema
-CREATE TABLE attack (
-    Name VARCHAR(50) NOT NULL PRIMARY KEY,
-    Club VARCHAR(50),
-    Games INT,
-    Runs INT,
-    Linebreaks INT,
-    Offloads INT,
-    Kicks INT,
-    Tries INT,
-    Points INT,
-    RunMetres INT,
-    TackleBusts INT,
-    KickMetres INT,
-    TryAssists INT,
-    Possession INT,
-    Passes INT,
-    LineoutWinsOwn INT,
-    PickAndDrives INT,
-    LBAssists INT,
-    LineoutWinsOpp INT,
-    KickErrors INT
+
+CREATE TABLE Attack (
+	Name VARCHAR(50) NOT NULL PRIMARY KEY,
+	Club VARCHAR(50),
+	Games INT,
+	Runs INT,
+	Linebreaks INT,
+	Offloads INT,
+	Kicks INT,
+	Tries INT,
+	Points INT,
+	RunMetres INT,
+	TackleBusts INT,
+	KickMetres INT,
+	TryAssists INT,
+	Possession INT,
+	Passes INT,
+	LineoutWinsOwn INT,
+	PickAndDrives INT,
+	LBAssists INT,
+	LineoutWinsOpp INT,
+	KickErrors INT
+	FOREIGN KEY Club REFERENCES Teams (Abbrevation)
 );
 
-CREATE TABLE kicking (
-    Name VARCHAR(5) NOT NULL PRIMARY KEY,
-    Club VARCHAR(30),
-    Games INT,
-    Conversions INT,
-    DropGoals INT,
-    Kicks INT,
-    PenaltyGoals INT,
-    Points INT,
-    KickMetres INT,
-    KickErrors INT,
-    ConversionAttempts INT,
-    PenaltyGoalAttempts INT,
-    DropGoalPercent FLOAT,
-    GoalKickingPercent FLOAT,
-    DropGoalAttempts INT
+CREATE TABLE Kicking (
+	Name VARCHAR(5) NOT NULL PRIMARY KEY,
+	Club VARCHAR(30),
+	Games INT,
+	Conversions INT,
+	DropGoals INT,
+	Kicks INT,
+	PenaltyGoals INT,
+	Points INT,
+	KickMetres INT,
+	KickErrors INT,
+	ConversionAttempts INT,
+	PenaltyGoalAttempts INT,
+	DropGoalPercent FLOAT,
+	GoalKickingPercent FLOAT,
+	DropGoalAttempts INT
 );
 
-CREATE TABLE defence (
-    Name VARCHAR(50) NOT NULL PRIMARY KEY,
-    Club VARCHAR(50),
-    Games INT,
-    HandlingErrors INT,
-    YellowCards INT,
-    Tackles INT,
-    Pilfers INT,
-    Turnovers INT,
-    PenaltiesConceded INT,
-    RedCards INT,
-    MissedTackles INT,
-    IneffectiveTackles INT,
-    ForcedRuckAndMaulPenalties INT,
-    TackleEfficiency FLOAT,
-    ForcedPenalties INT
+CREATE TABLE Defence (
+	Name VARCHAR(50) NOT NULL PRIMARY KEY,
+	Club VARCHAR(50),
+	Games INT,
+	HandlingErrors INT,
+	YellowCards INT,
+	Tackles INT,
+	Pilfers INT,
+	Turnovers INT,
+	PenaltiesConceded INT,
+	RedCards INT,
+	MissedTackles INT,
+	IneffectiveTackles INT,
+	ForcedRuckAndMaulPenalties INT,
+	TackleEfficiency FLOAT,
+	ForcedPenalties INT
+);
+
+CREATE TABLE Ladder(
+	Rank INT,
+	Team VARCHAR (20) NOT NULL PRIMARY KEY,
+	Games INT,
+	Won INT,
+	Drawn INT,
+	Lost INT,
+	BonusPoints INT,
+	PointDifference INT,
+	Points INT
 );
 
 -- Import Data
 .separator ','
-.import --skip 1 super_six_attack_data.csv attack
-.import --skip 1 super_six_kicking_data.csv kicking
-.import --skip 1 super_six_defence_data.csv defence
+.import --skip 1 super_rugby_attack_data.csv Attack
+.import --skip 1 super_rugby_kicking_data.csv Kicking
+.import --skip 1 super_rugby_defence_data.csv Defence
+.import --skip 1 super_rugby_ladder.csv Ladder
