@@ -1,0 +1,742 @@
+<section class="section-main">
+<div class="container" id="main-content">
+<div class="row">
+<div class="cbox-main pid-search col-xs-12" id="cbox-main">
+<!-- cbox include start -->
+<div class="row">
+<div class="col-xs-10">
+<h2> Results: Mass</h2>
+</div>
+</div>
+<ul class="row-xs list-group list-info">
+<li class="list-group-item">
+40618 Results | Official Results
+</li>
+</ul>
+<div class="col-sm-12 row-xs">
+<ul class="list-group list-group-multicolumn">
+<li class="list-group row list-group-item list-group-header">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs" style="width: 60px">Place <small>(Overall)</small></div>
+<div class="list-field type-place place-primary" style="width: 60px">Place <small>(Gender)</small></div>
+<div class="list-field type-place place-secondary hidden-xs" style="width: 60px">Place <small>(Category)</small></div>
+<div class="list-field type-fullname">Name</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 hidden-xs hidden-sm list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Club</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>Runner Number</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>Category</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Event</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>Half</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>Finish</div>
+<div class="list-field type-favorite" style="width: 13px"></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">51</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">51</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">9</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ39C5D2&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Quarta, Luca (ITA)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div><span class="text-muted">–</span></div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>612</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>40-44</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:03</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:32</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ39C5D2"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">52</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">52</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">10</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ39D423&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Alvarez, Recio (DOM)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div><span class="text-muted">–</span></div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>3739</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>40-44</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:11:59</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:34</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ39D423"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">53</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">53</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">39</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A3369&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Mcclements, Neil (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Tonbridge AC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1292</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:30</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:37</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A3369"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">54</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">54</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">40</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2E76&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Lawrence, David (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Harrow AC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1348</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:48</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:38</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2E76"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">55</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">55</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">41</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A150B&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Landers, Jacob (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Tamar Trotters</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>4363</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:11</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:40</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A150B"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">56</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">56</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">42</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ39BB15&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Wat, King long (HKG)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div><span class="text-muted">–</span></div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>6474</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:11:24</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:48</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ39BB15"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">57</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">57</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">11</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2D95&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Greenleaf, Andrew (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Serpentine RC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1341</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>40-44</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:09</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:48</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2D95"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">58</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">58</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">12</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2D97&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Harding, Ian (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Morpeth Harriers &amp; AC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1352</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>40-44</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:37</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:28:56</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2D97"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">59</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">59</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">43</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2E9C&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Barnes, Andrew (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>London Heathside</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1375</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:54</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:03</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2E9C"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">60</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">60</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">13</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2D83&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Besson, Nicolas (FRA)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Serpentine RC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1281</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>40-44</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:26</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:06</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2D83"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">61</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">61</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">44</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2E14&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Soszka, Marcin (POL)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Saltaire Striders</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1257</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:18</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:09</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2E14"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">62</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">62</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">45</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2F25&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Hartley, Joe (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Kent AC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1390</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:53</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:14</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2F25"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">63</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">63</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">46</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2FAE&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Darby, Alan (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Ely Runners</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1373</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:19</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:20</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2FAE"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">64</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">64</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">47</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A14A4&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Goldsworthy, Luke (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>RAF Athletics</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>4223</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:45</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:25</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A14A4"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">65</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">65</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">48</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A3374&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Roberts, Tomos (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Meirionnydd Running Club</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1307</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:26</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:33</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A3374"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">66</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">66</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">49</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A81F0&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Bruchhausen, Chris (RSA)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Best Athletics</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>9937</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:12:08</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:34</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A81F0"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">67</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">67</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">50</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2A5B&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Hockin, Nigel (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Slaithwaite striders</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1293</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:13:38</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:42</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2A5B"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">68</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">68</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">51</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2D84&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Mcdowell, Jasper (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Vegan Runners UK</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1311</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:45</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:43</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2D84"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">69</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">69</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">52</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2F3B&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Fawcett, Chris (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Hart Road Runners</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1345</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:21</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:47</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2F3B"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">70</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">70</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">53</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2D8D&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Davidson, Aran (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Chiltern Harriers AC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1316</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:03</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:50</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2D8D"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">71</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">71</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">54</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A322D&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Rodgers, Lewis (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Fife Athletic Club</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1266</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:11:51</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:51</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A322D"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">72</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">72</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">55</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2E3D&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Skelly, Jordan (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Lincoln Wellington Athletic Club</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1256</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:10:01</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:52</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2E3D"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">73</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">73</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">56</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2F95&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Fairbrother, Tom (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>Clapham Chasers</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1369</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:00</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:53</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2F95"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">74</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">74</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">57</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A2F11&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Hurrell, James (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>London Heathside</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>1354</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:01</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:54</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A2F11"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+<li class="list-active list-group-item row">
+<div class="col-xs-12 col-sm-12 col-md-5 list-field-wrap">
+<div class="row">
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">75</div>
+<div class="list-field type-place place-primary numeric" style="width: 60px">75</div>
+<div class="list-field type-place place-secondary hidden-xs numeric" style="width: 60px">58</div>
+<h4 class="list-field type-fullname"><a href="?content=detail&amp;fpid=search&amp;pid=search&amp;idp=T8C2O3HQ3A14A0&amp;lang=EN_CAP&amp;event=MAS&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;search_event=">Hodgson, Adam (GBR)</a></h4>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 list-field-wrap">
+<div class="pull-left">
+<div class="row">
+<div class="list-field type-field hidden-xs" style="width: 150px"><div class="visible-xs-block visible-sm-block list-label">Club</div>South Shields Harriers &amp; AC</div>
+<div class="list-field type-field" style="width: 90px"><div class="visible-xs-block visible-sm-block list-label">Runner Number</div>4142</div>
+<div class="list-field type-age_class" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Category</div>18-39</div>
+<div class="list-field type-event_name" style="width: 70px"><div class="visible-xs-block visible-sm-block list-label">Event</div>Mass</div>
+<div class="split list-field type-time hidden-xs" style="width: 60px"><div class="visible-xs-block visible-sm-block list-label">Half</div>01:14:07</div>
+</div>
+</div>
+<div class="pull-right">
+<div class="row">
+<div class="split list-field type-time"><div class="visible-xs-block visible-sm-block list-label">Finish</div>02:29:55</div>
+<div class="list-field type-favorite text-right" style="width: 13px"><a class="icon l" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto&amp;event=MAS&amp;favorite_add=T8C2O3HQ3A14A0"><img alt="Add Runner To 'My Favourites'" src="//assets.mikatiming.com/img/mt/results/default/icons/add.svg" title="Add Runner To 'My Favourites'"/></a></div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="row">
+<div class="col-xs-8 col-sm-9 col-md-6">
+<div aria-label="" class="btn-toolbar list-actions" role="toolbar">
+<div class="btn-group" role="group">
+<a class="btn btn-default" href="?pid=start&amp;page=3&amp;search_sort=place_nosex&amp;split=time_finish_netto">Back / New Search</a>
+<a class="btn btn-default hidden-xs" href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">Reload</a>
+<a class="btn btn-default hidden-xs" href="#" onclick="open_print('?print=1&amp;page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto');">Print</a>
+</div>
+</div>
+</div>
+<div class="col-xs-4 col-sm-3 col-md-6">
+<div class="pull-right pages">
+<ul class="pagination"><li class="pages-nav-button"><a href="?page=2&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">&lt;</a></li><li class="hidden-xs hidden-sm"><a href="?page=1&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">1</a></li><li class="hidden-xs hidden-sm"><a href="?page=2&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">2</a></li><li class="hidden-xs hidden-sm active"><a href="?page=3&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">3</a></li><li class="hidden-xs hidden-sm"><a href="?page=4&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">4</a></li><li class="hidden-xs hidden-sm"><a href="?page=5&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">5</a></li><li class="disabled"><a aria-label="" class="hidden-xs hidden-sm" href="#"><span aria-hidden="true">...</span></a></li><li class="hidden-xs hidden-sm"><a href="?page=1625&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">1625</a></li><li class="pages-nav-button"><a href="?page=4&amp;pid=search&amp;search_sort=place_nosex&amp;split=time_finish_netto">&gt;</a></li></ul>
+</div>
+</div>
+</div>
+<!-- cbox include end -->
+</div>
+</div><!-- row -->
+</div><!-- container main-content -->
+</section>

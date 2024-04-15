@@ -13,24 +13,24 @@ CREATE TABLE Attack (
 	Name VARCHAR(50) NOT NULL PRIMARY KEY,
 	Club VARCHAR(50),
 	Games INT,
-	Runs INT,
-	Linebreaks INT,
-	Offloads INT,
-	Kicks INT,
 	Tries INT,
-	Points INT,
-	RunMetres INT,
-	TackleBusts INT,
-	KickMetres INT,
 	TryAssists INT,
-	Possession INT,
+	Points INT,
+	Possessions INT,
+	Runs INT,
+	RunMetres INT,
+	PickAndDrives INT,
+	LineBreaks INT,
+	LBAssists INT,
+	TackleBusts INT,
+	Offloads INT,
 	Passes INT,
 	LineoutWinsOwn INT,
-	PickAndDrives INT,
-	LBAssists INT,
 	LineoutWinsOpp INT,
+	Kicks INT,
+	KickMetres INT,
 	KickErrors INT
-	FOREIGN KEY Club REFERENCES Teams (Abbrevation)
+--	FOREIGN KEY Club REFERENCES Teams (Abbrevation)
 );
 
 CREATE TABLE Kicking (

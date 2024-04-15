@@ -117,7 +117,7 @@ def extracting_data():
         
         
 #&category=attack&pageNumber=2
-categories = ['attack', 'defence', 'kicking']
+categories = ['defence', 'attack', 'kicking']
 for category in categories:
     with open(f'super_rugby_{category}_data.csv', 'w') as file:
         url_cat = url_root+'&category='+category
