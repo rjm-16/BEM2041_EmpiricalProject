@@ -1,0 +1,10 @@
+|   Year | Location       | Gender   |   Position | Name                  | Nationality                  | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:----------------------|:-----------------------------|:-------------|
+|   1992 | Barcelona      | Men      |         22 | Yakov Tolstikov       | Unified Team                 | 2:17:04      |
+|   1992 | Barcelona      | Women    |          1 | Valentina Yegorova    | Unified Team                 | 2:32:41      |
+|   1992 | Barcelona      | Women    |          8 | Ramilya Burangulova   | Unified Team                 | 2:38:46      |
+|   2000 | Sydney         | Men      |         71 | Calisto da Costa      | Individual Olympic Athletes  | 2:33:11      |
+|   2000 | Sydney         | Women    |         43 | Aguida Amaral         | Individual Olympic Athletes  | 3:10:55      |
+|   2012 | London         | Men      |         47 | Guor Marial           | Independent Olympic Athletes | 2:19:32      |
+|   2016 | Rio de Janeiro | Men      |         89 | Yonas Kinde           | Refugee Olympic Team         | 2:24:08      |
+|   2020 | Tokyo          | Men      |         16 | Tachlowini Gabriyesos | Refugee Olympic Team         | 2:14:02      |
