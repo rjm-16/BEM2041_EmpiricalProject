@@ -9,11 +9,6 @@ from urllib import request, error
 import re
 from bs4 import BeautifulSoup
 
-
-
-with open('Olympic_source_code.txt', 'r', encoding="utf-8") as file:
-    html_source = file.read()
-
 #soup = BeautifulSoup(html_source, 'html.parser')
 
 
@@ -141,7 +136,10 @@ def extracting_data():
                 if row_contents[2].endswith('.'):
                     # Remove the full stop
                     row_contents[2] = row_contents[2][:-1]
-                        
+                    
+                if len(row_contents[5]) >= 6 and row_contents[5][5] == ':':
+                    row_contents[5] = row_contents[5][:5] + '.' + row_contents[5][6:]
+                    
                 print(row_contents)
                         
                 # Write the contents of the current row to the CSV file, joined by commas
@@ -217,3 +215,64 @@ for gender in genders:
             target = f'https://en.wikipedia.org/wiki/Athletics_at_the_{year}_Summer_Olympics_-_{gender}%27s_5000_metres'
             #extracting_titles()
             extracting_data()
+            
+countries_continents = [
+    ['Algeria', 'Africa'],
+    ['Australia', 'Oceania'],
+    ['Austria', 'Europe'],
+    ['Azerbaijan', 'Asia'],
+    ['Bahrain', 'Asia'],
+    ['Belgium', 'Europe'],
+    ['Bulgaria', 'Europe'],
+    ['Burundi', 'Africa'],
+    ['Canada', 'North America'],
+    ['China', 'Asia'],
+    ['Czechoslovakia', 'Europe'],
+    ['Denmark', 'Europe'],
+    ['Djibouti', 'Africa'],
+    ['East Germany', 'Europe'],
+    ['Eritrea', 'Africa'],
+    ['Ethiopia', 'Africa'],
+    ['Finland', 'Europe'],
+    ['FR Yugoslavia', 'Europe'],
+    ['France', 'Europe'],
+    ['Germany', 'Europe'],
+    ['Great Britain', 'Europe'],
+    ['Guatemala', 'North America'],
+    ['Hungary', 'Europe'],
+    ['Ireland', 'Europe'],
+    ['Israel', 'Asia'],
+    ['Italy', 'Europe'],
+    ['Japan', 'Asia'],
+    ['Kenya', 'Africa'],
+    ['Latvia', 'Europe'],
+    ['Mexico', 'North America'],
+    ['Morocco', 'Africa'],
+    ['Netherlands', 'Europe'],
+    ['New Zealand', 'Oceania'],
+    ['Norway', 'Europe'],
+    ['Peru', 'South America'],
+    ['Poland', 'Europe'],
+    ['Portugal', 'Europe'],
+    ['Qatar', 'Asia'],
+    ['Romania', 'Europe'],
+    ['Russia', 'Europe'],
+    ['South Africa', 'Africa'],
+    ['Soviet Union', 'Europe/Asia'],
+    ['Spain', 'Europe'],
+    ['Sweden', 'Europe'],
+    ['Switzerland', 'Europe'],
+    ['Tanzania', 'Africa'],
+    ['Tunisia', 'Africa'],
+    ['Turkey', 'Asia'],
+    ['Uganda', 'Africa'],
+    ['Ukraine', 'Europe'],
+    ['United States', 'North America'],
+    ['United Team of Germany', 'Europe'],
+    ['West Germany', 'Europe']
+]
+
+with open('countries_and_continents.csv', 'w') as file:
+    for country in countries_continents:
+        # Write the contents of the current row to the CSV file, joined by commas
+        file.write(','.join(country) + '\n')
