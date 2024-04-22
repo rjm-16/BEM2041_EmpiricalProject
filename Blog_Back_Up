@@ -1,0 +1,113 @@
+# BEE2041 Empirical Project
+
+---
+# The History of the 5000m at the Olympics
+## Justified text
+<div style="text-align: justify;">
+test
+    
+</div>
+
+
+
+<div style="text-align: justify;">
+    
+    How to put image in:
+    ![Alt text](https://github.com/rjm-16/TestingGitFromWindows/blob/main/Testing%20image%20for%20Hackmd.jpg?raw=true)
+</div>
+
+#### With the Paris 2024 Olympic games fast approaching, I decided to take a look back at the history of the 5000m Athletics. 
+
+> :spiral_note_pad: For the following analysis I have used data for the final races each Olympics and only for individuals who completed the race with a recorded time.
+
+## Overview
+
+## The Inaugural 5000m at the Olympics
+The 5000m event was introduced to the Olympics in the 1912  Stockholm Olympics in Sweden :flag-se:
+
+There were x finshers in the final with x winning gold with a time of ... and setting a World Record.
+
+## Women
+
+## Records
+
+## Over time
+## Plots
+![Gender Average Time Difference](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true)
+
+![Medal Times](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/medal_times_plot.png?raw=true)
+
+![Number of Finishers by Continent](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_by_continent_stacked_plot.png?raw=true)
+
+![Number of Male Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true)
+
+![Number of Female Finishsers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true)
+
+![Winning Times and Records](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true)
+
+
+## Markdown Tables
+
+|   Year | Location   | Gender   |   Position | Name           | Nationality   | Continent   | Time_Taken          |   Notes |
+|-------:|:-----------|:---------|-----------:|:---------------|:--------------|:------------|:--------------------|--------:|
+|   1912 | Stockholm  | Men      |         36 | Shizo Kanakuri | Japan         | Asia        | 54:08:06:05:32:20.3 |     nan |
+
+|   Year | Location       | Gender   |   Position | Name                  | Nationality                  | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:----------------------|:-----------------------------|:-------------|
+|   1992 | Barcelona      | Men      |         22 | Yakov Tolstikov       | Unified Team                 | 2:17:04      |
+|   1992 | Barcelona      | Women    |          1 | Valentina Yegorova    | Unified Team                 | 2:32:41      |
+|   1992 | Barcelona      | Women    |          8 | Ramilya Burangulova   | Unified Team                 | 2:38:46      |
+|   2000 | Sydney         | Men      |         71 | Calisto da Costa      | Individual Olympic Athletes  | 2:33:11      |
+|   2000 | Sydney         | Women    |         43 | Aguida Amaral         | Individual Olympic Athletes  | 3:10:55      |
+|   2012 | London         | Men      |         47 | Guor Marial           | Independent Olympic Athletes | 2:19:32      |
+|   2016 | Rio de Janeiro | Men      |         89 | Yonas Kinde           | Refugee Olympic Team         | 2:24:08      |
+|   2020 | Tokyo          | Men      |         16 | Tachlowini Gabriyesos | Refugee Olympic Team         | 2:14:02      |
+
+| Africa   | Asia   |   Europe | North America   | Oceania   | Other   | South America   |
+|:---------|:-------|---------:|:----------------|:----------|:--------|:----------------|
+| -        | -      |        3 | -               | -         | -       | -               |
+| -        | -      |        4 | 1.0             | -         | -       | -               |
+| -        | -      |        1 | 2.0             | -         | -       | -               |
+| 1.0      | -      |       12 | 13.0            | -         | -       | -               |
+| 2.0      | -      |       19 | 13.0            | -         | -       | -               |
+| -        | 5.0    |       22 | 6.0             | 1.0       | -       | 1.0             |
+| 1.0      | 1.0    |       20 | 7.0             | -         | -       | 1.0             |
+| 1.0      | 3.0    |       39 | 13.0            | -         | -       | 1.0             |
+| -        | 3.0    |        8 | 6.0             | -         | -       | 3.0             |
+| 3.0      | 4.0    |       29 | 3.0             | -         | -       | 3.0             |
+| 2.0      | 3.0    |       15 | 6.0             | -         | -       | 4.0             |
+| 4.0      | 6.0    |       33 | 5.0             | 2.0       | -       | 3.0             |
+| 4.0      | 8.0    |       16 | 2.0             | 3.0       | -       | -               |
+| 9.0      | 10.0   |       30 | 4.0             | 5.0       | -       | 4.0             |
+| 11.0     | 11.0   |       23 | 6.0             | 6.0       | -       | 1.0             |
+| 11.0     | 11.0   |       20 | 8.0             | 4.0       | -       | 3.0             |
+| 6.0      | 7.0    |       29 | 9.0             | 4.0       | -       | 7.0             |
+| -        | 11.0   |       28 | 14.0            | 4.0       | -       | 3.0             |
+| 15.0     | 8.0    |       25 | 1.0             | 2.0       | -       | 2.0             |
+| 22.0     | 19.0   |       46 | 20.0            | 7.0       | -       | 8.0             |
+| 36.0     | 26.0   |       50 | 30.0            | 15.0      | -       | 5.0             |
+| 28.0     | 21.0   |       42 | 15.0            | 6.0       | 3.0     | 9.0             |
+| 32.0     | 29.0   |       63 | 25.0            | 8.0       | -       | 18.0            |
+| 29.0     | 24.0   |       43 | 10.0            | 7.0       | 2.0     | 11.0            |
+| 25.0     | 34.0   |       57 | 16.0            | 7.0       | -       | 8.0             |
+| 28.0     | 31.0   |       57 | 13.0            | 6.0       | -       | 10.0            |
+| 35.0     | 39.0   |       77 | 15.0            | 7.0       | 1.0     | 18.0            |
+| 45.0     | 68.0   |       92 | 20.0            | 6.0       | 1.0     | 40.0            |
+| 26.0     | 26.0   |       57 | 18.0            | 8.0       | 1.0     | 12.0            |
+
+|   Year | Location       | Gender   | Name               | Time_Taken   | Notes   |
+|-------:|:---------------|:---------|:-------------------|:-------------|:--------|
+|   1984 | Los Angeles    | Women    | Joan Benoit        | 2:24:52      | OR      |
+|   1988 | Seoul          | Women    | Rosa Mota          | 2:25:40      | -       |
+|   1992 | Barcelona      | Women    | Valentina Yegorova | 2:32:41      | -       |
+|   1996 | Atlanta        | Women    | Fatuma Roba        | 2:26:05      | -       |
+|   2000 | Sydney         | Women    | Naoko Takahashi    | 2:23:14      | OR      |
+|   2004 | Athens         | Women    | Mizuki Noguchi     | 2:26:20      | -       |
+|   2008 | Beijing        | Women    | Constantina Diță   | 2:26:44      | -       |
+|   2012 | London         | Women    | Tiki Gelana        | 2:23:07      | OR      |
+|   2016 | Rio de Janeiro | Women    | Jemima Sumgong     | 2:24:04      | -       |
+|   2020 | Tokyo          | Women    | Peres Jepchirchir  | 2:27:20      | -       |
+
+
+
+
