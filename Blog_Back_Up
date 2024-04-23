@@ -1,37 +1,136 @@
-# BEE2041 Empirical Project
-
----
-# The History of the 5000m at the Olympics
-## Justified text
-<div style="text-align: justify;">
-test
+<center>
     
-</div>
-
-
+# The Unique History of the Marathon at the Olympics
+    
+</center>
 
 <div style="text-align: justify;">
     
-    How to put image in:
-    ![Alt text](https://github.com/rjm-16/TestingGitFromWindows/blob/main/Testing%20image%20for%20Hackmd.jpg?raw=true)
+#### With the Paris 2024 Olympic Games fast approaching and the London Marathon last weekend, for this blog I decided to merge the two and take a deep dive into the history of the Marathon at the Olympic Games. 
 </div>
 
-#### With the Paris 2024 Olympic games fast approaching, I decided to take a look back at the history of the 5000m Athletics. 
+> :spiral_note_pad: For the following analysis I have only used data for atheletes who finshed the Marathon with a recorded time for every Olympics Games from Athens 1896 to Tokyo 2020.
 
-> :spiral_note_pad: For the following analysis I have used data for the final races each Olympics and only for individuals who completed the race with a recorded time.
+## What is the Marathon and Why?!
 
-## Overview
+<div style="text-align: justify;">
 
-## The Inaugural 5000m at the Olympics
-The 5000m event was introduced to the Olympics in the 1912  Stockholm Olympics in Sweden :flag-se:
+The Marathon stems from the myth about Pheidippides, a Greek messenger who ran from Marathon to Athens in 490BC to proclaim "Rejoice, we win" referring to a battle against the invading Persians. After delivering his important message he died of exhaustion 'after sprinting the 25 miles to Athens' ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')).
 
-There were x finshers in the final with x winning gold with a time of ... and setting a World Record.
+First run at the 1986 Olympics in Athens, the inaugural modern Olympic Games, the finish line was in the Panathenaic Stadium roughly 40km away from the start in Marathon ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')). The well know distance now of 26 miles and 385 yards (42.195km) was later solidified at the 1908 Olympics in London, with the start line in Windsor and the finish line in front of the Royal box in the Olympic Stadium in London.
+
+The Marathon at the Olympics has an infamous history of being one of the more eventful races especially in the early years with the 1904 Paris Olympics being one of the strangest races. The initial winner was later disqualified for having a lift from his trainer in a car for 11 out of the 24 miles before finishing the last 6 miles and claiming the victory. ... who crossed the line second to later be announced the winner was carried across the finish line by his training team before collapsing from exhaustion. ..., a postman from Cuba, who hitchhiked his way to the games after losing all his money gambling in St Louis finished 4th, even after eating some rotten apples in an orchard and taking a 20 minute nap to ease the resulting stomach cramps before continuing and finishing the race. 
+
+The longest time to finished the Marathon was 54 years 8 months 6 days 5 hours 32 minutes and 20 seconds by Shizo Kanakuri from Japan who after tiring, dropped out of the race but ashamed of himself didn't inform any race official and returned home to Japan. Placed on the missing persons list for Sweeden for over 50 years he was found and invited to finish his marathon 54 years later. I removed this row from my data as it is a large anomaly which could put into question the reliability of my further analysis. 
+
+#### 54 year marathon:
+|   Year | Location   | Gender   |   Position | Name           | Nationality   | Time_Taken          |
+|-------:|:-----------|:---------|-----------:|:---------------|:--------------|:--------------------|
+|   1912 | Stockholm  | Men      |         36 | Shizo Kanakuri | Japan         | 54:08:06:05:32:20.3 |
+
+The Marathon has come a long way from its early years and is now a highly competitive race which has seen vast improvements in the finishing times since its start in 1896. This is what I am going to delve deeper into in this blog!
+</div>
+
+    
+## Finishers Over Time
+
+<div style="text-align: justify;">
+
+To begin, I looked at the total number of finishers for each of the races since 1896. As shown in Figure 1 the summer Olympics takes place every four years however there is a gap between 1912 and 1920 and a second gap between 1936 and 1948 due to the First World War and Second World War respectively.
+
+> Figure 1: Number of Finishers by Gender
+
+<div style="float: left;">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true" width="500" height="275">
+</div>
+
+<img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true" width="210" height="275">
+
+As can be seen in Figure 1 the number of successful finishers has increased dramatically since the inaugural marathon in Athens where only 3 runners finished with official times compared to the 139 male finishers and 133 female finishers (totalling to 272 finishers) in the 2016 Rio de Janeiro Olympics. The number of finishers for the first three years were single figures, then from the 1908 London Olympics the number of finishers increases and stayed roughly between 20 to 40 before another step up from the 1960 Rome Olympics to around 60 before a final increase to between 70 to 100 finishers from the 1984 Los Angeles Olympics. Additionally, it has only been since the 1984 Los Angeles Olympics that women have competed in the marathon. The womens race  had slightly less finishers than the mens until 2012 London Olympics where there were 22 more finishers, and since then the number of finishers with a recorded time for both men and women have been very similar.
+
+> Figure 2: Finishers by Continent
+<div style="float: left; margin-right: 10px;">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_by_continent_stacked_plot.png?raw=true" width="400" height="325">
+</div>
+
+Figure 2 shows the combined male and female finishers each year split by their continent. As can be seen the first 3 years only Europeans and North Americans competed, this introduction of Africans in London 1908 increases the number of finishers and the first Asian, Oceanic and South American finishers in Antwerp 1920. The data behind this graph as show in absolute values in [Appendix 1](######Appendix-1:-Continents-competing-over-time-(number-of-finishers)) and as percentages of total finishers in the [Appendix 2](####Appendix-2:-Continents-competing-over-time-(percentage-of-finishers)) shows that although there were only 3 runners in the first marathon in 1896 all of them were European compared to Tokyo 2020 where the majority of finishers were European at 38% but there is a greater presence of athletes from other continents such as 17% of the field coming from Africa and a further 17% from Asia.
+    
+</div>
 
 ## Women
 
 ## Records
 
 ## Over time
+
+## Appendix
+#### Appendix 1: Continents competing over time (number of finishers)
+|   Year | Africa   | Asia   |   Europe | North America   | Oceania   | Other   | South America   |
+|-------:|:---------|:-------|---------:|:----------------|:----------|:--------|:----------------|
+|   1896 | -        | -      |        3 | -               | -         | -       | -               |
+|   1900 | -        | -      |        4 | 1               | -         | -       | -               |
+|   1904 | -        | -      |        1 | 2               | -         | -       | -               |
+|   1908 | 1        | -      |       12 | 13              | -         | -       | -               |
+|   1912 | 2        | -      |       19 | 13              | -         | -       | -               |
+|   1920 | -        | 5      |       22 | 6               | 1         | -       | 1               |
+|   1924 | 1        | 1      |       20 | 7               | -         | -       | 1               |
+|   1928 | 1        | 3      |       39 | 13              | -         | -       | 1               |
+|   1932 | -        | 3      |        8 | 6               | -         | -       | 3               |
+|   1936 | 3        | 4      |       29 | 3               | -         | -       | 3               |
+|   1948 | 2        | 3      |       15 | 6               | -         | -       | 4               |
+|   1952 | 4        | 6      |       33 | 5               | 2         | -       | 3               |
+|   1956 | 4        | 8      |       16 | 2               | 3         | -       | -               |
+|   1960 | 9        | 10     |       30 | 4               | 5         | -       | 4               |
+|   1964 | 11       | 11     |       23 | 6               | 6         | -       | 1               |
+|   1968 | 11       | 11     |       20 | 8               | 4         | -       | 3               |
+|   1972 | 6        | 7      |       29 | 9               | 4         | -       | 7               |
+|   1976 | -        | 11     |       28 | 14              | 4         | -       | 3               |
+|   1980 | 15       | 8      |       25 | 1               | 2         | -       | 2               |
+|   1984 | 22       | 19     |       46 | 20              | 7         | -       | 8               |
+|   1988 | 36       | 26     |       50 | 30              | 15        | -       | 5               |
+|   1992 | 28       | 21     |       42 | 15              | 6         | 3       | 9               |
+|   1996 | 32       | 29     |       63 | 25              | 8         | -       | 18              |
+|   2000 | 29       | 24     |       43 | 10              | 7         | 2       | 11              |
+|   2004 | 25       | 34     |       57 | 16              | 7         | -       | 8               |
+|   2008 | 28       | 31     |       57 | 13              | 6         | -       | 10              |
+|   2012 | 35       | 39     |       77 | 15              | 7         | 1       | 18              |
+|   2016 | 45       | 68     |       92 | 20              | 6         | 1       | 40              |
+|   2020 | 26       | 26     |       57 | 18              | 8         | 1       | 12              |
+
+#### Appendix 2: Continents competing over time (percentage of finishers)
+|   Year | Africa   | Asia   | Europe   | North America   | Oceania   | Other   | South America   |
+|-------:|:---------|:-------|:---------|:----------------|:----------|:--------|:----------------|
+|   1896 | -        | -      | 100%     | -               | -         | -       | -               |
+|   1900 | -        | -      | 80%      | 20%             | -         | -       | -               |
+|   1904 | -        | -      | 33%      | 66%             | -         | -       | -               |
+|   1908 | 3%       | -      | 46%      | 50%             | -         | -       | -               |
+|   1912 | 5%       | -      | 55%      | 38%             | -         | -       | -               |
+|   1920 | -        | 14%    | 62%      | 17%             | 2%        | -       | 2%              |
+|   1924 | 3%       | 3%     | 66%      | 23%             | -         | -       | 3%              |
+|   1928 | 1%       | 5%     | 68%      | 22%             | -         | -       | 1%              |
+|   1932 | -        | 15%    | 40%      | 30%             | -         | -       | 15%             |
+|   1936 | 7%       | 9%     | 69%      | 7%              | -         | -       | 7%              |
+|   1948 | 6%       | 10%    | 50%      | 20%             | -         | -       | 13%             |
+|   1952 | 7%       | 11%    | 62%      | 9%              | 3%        | -       | 5%              |
+|   1956 | 12%      | 24%    | 48%      | 6%              | 9%        | -       | -               |
+|   1960 | 14%      | 16%    | 48%      | 6%              | 8%        | -       | 6%              |
+|   1964 | 18%      | 18%    | 39%      | 10%             | 10%       | -       | 1%              |
+|   1968 | 19%      | 19%    | 35%      | 14%             | 7%        | -       | 5%              |
+|   1972 | 9%       | 11%    | 46%      | 14%             | 6%        | -       | 11%             |
+|   1976 | -        | 18%    | 46%      | 23%             | 6%        | -       | 5%              |
+|   1980 | 28%      | 15%    | 47%      | 1%              | 3%        | -       | 3%              |
+|   1984 | 18%      | 15%    | 37%      | 16%             | 5%        | -       | 6%              |
+|   1988 | 22%      | 16%    | 30%      | 18%             | 9%        | -       | 3%              |
+|   1992 | 22%      | 16%    | 33%      | 12%             | 4%        | 2%      | 7%              |
+|   1996 | 18%      | 16%    | 36%      | 14%             | 4%        | -       | 10%             |
+|   2000 | 23%      | 19%    | 34%      | 7%              | 5%        | 1%      | 8%              |
+|   2004 | 17%      | 23%    | 38%      | 10%             | 4%        | -       | 5%              |
+|   2008 | 19%      | 21%    | 39%      | 8%              | 4%        | -       | 6%              |
+|   2012 | 18%      | 20%    | 40%      | 7%              | 3%        | -       | 9%              |
+|   2016 | 16%      | 25%    | 33%      | 7%              | 2%        | -       | 14%             |
+|   2020 | 17%      | 17%    | 38%      | 12%             | 5%        | -       | 8%              |
+
+
 ## Plots
 ![Gender Average Time Difference](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true)
 
@@ -41,17 +140,16 @@ There were x finshers in the final with x winning gold with a time of ... and se
 
 ![Number of Male Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true)
 
-![Number of Female Finishsers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true)
+![Number of Female Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true)
 
 ![Winning Times and Records](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true)
 
 
 ## Markdown Tables
 
-|   Year | Location   | Gender   |   Position | Name           | Nationality   | Continent   | Time_Taken          |   Notes |
-|-------:|:-----------|:---------|-----------:|:---------------|:--------------|:------------|:--------------------|--------:|
-|   1912 | Stockholm  | Men      |         36 | Shizo Kanakuri | Japan         | Asia        | 54:08:06:05:32:20.3 |     nan |
 
+
+#### Other Continents
 |   Year | Location       | Gender   |   Position | Name                  | Nationality                  | Time_Taken   |
 |-------:|:---------------|:---------|-----------:|:----------------------|:-----------------------------|:-------------|
 |   1992 | Barcelona      | Men      |         22 | Yakov Tolstikov       | Unified Team                 | 2:17:04      |
@@ -63,38 +161,9 @@ There were x finshers in the final with x winning gold with a time of ... and se
 |   2016 | Rio de Janeiro | Men      |         89 | Yonas Kinde           | Refugee Olympic Team         | 2:24:08      |
 |   2020 | Tokyo          | Men      |         16 | Tachlowini Gabriyesos | Refugee Olympic Team         | 2:14:02      |
 
-| Africa   | Asia   |   Europe | North America   | Oceania   | Other   | South America   |
-|:---------|:-------|---------:|:----------------|:----------|:--------|:----------------|
-| -        | -      |        3 | -               | -         | -       | -               |
-| -        | -      |        4 | 1.0             | -         | -       | -               |
-| -        | -      |        1 | 2.0             | -         | -       | -               |
-| 1.0      | -      |       12 | 13.0            | -         | -       | -               |
-| 2.0      | -      |       19 | 13.0            | -         | -       | -               |
-| -        | 5.0    |       22 | 6.0             | 1.0       | -       | 1.0             |
-| 1.0      | 1.0    |       20 | 7.0             | -         | -       | 1.0             |
-| 1.0      | 3.0    |       39 | 13.0            | -         | -       | 1.0             |
-| -        | 3.0    |        8 | 6.0             | -         | -       | 3.0             |
-| 3.0      | 4.0    |       29 | 3.0             | -         | -       | 3.0             |
-| 2.0      | 3.0    |       15 | 6.0             | -         | -       | 4.0             |
-| 4.0      | 6.0    |       33 | 5.0             | 2.0       | -       | 3.0             |
-| 4.0      | 8.0    |       16 | 2.0             | 3.0       | -       | -               |
-| 9.0      | 10.0   |       30 | 4.0             | 5.0       | -       | 4.0             |
-| 11.0     | 11.0   |       23 | 6.0             | 6.0       | -       | 1.0             |
-| 11.0     | 11.0   |       20 | 8.0             | 4.0       | -       | 3.0             |
-| 6.0      | 7.0    |       29 | 9.0             | 4.0       | -       | 7.0             |
-| -        | 11.0   |       28 | 14.0            | 4.0       | -       | 3.0             |
-| 15.0     | 8.0    |       25 | 1.0             | 2.0       | -       | 2.0             |
-| 22.0     | 19.0   |       46 | 20.0            | 7.0       | -       | 8.0             |
-| 36.0     | 26.0   |       50 | 30.0            | 15.0      | -       | 5.0             |
-| 28.0     | 21.0   |       42 | 15.0            | 6.0       | 3.0     | 9.0             |
-| 32.0     | 29.0   |       63 | 25.0            | 8.0       | -       | 18.0            |
-| 29.0     | 24.0   |       43 | 10.0            | 7.0       | 2.0     | 11.0            |
-| 25.0     | 34.0   |       57 | 16.0            | 7.0       | -       | 8.0             |
-| 28.0     | 31.0   |       57 | 13.0            | 6.0       | -       | 10.0            |
-| 35.0     | 39.0   |       77 | 15.0            | 7.0       | 1.0     | 18.0            |
-| 45.0     | 68.0   |       92 | 20.0            | 6.0       | 1.0     | 40.0            |
-| 26.0     | 26.0   |       57 | 18.0            | 8.0       | 1.0     | 12.0            |
 
+
+#### Women Winners
 |   Year | Location       | Gender   | Name               | Time_Taken   | Notes   |
 |-------:|:---------------|:---------|:-------------------|:-------------|:--------|
 |   1984 | Los Angeles    | Women    | Joan Benoit        | 2:24:52      | OR      |
@@ -107,6 +176,9 @@ There were x finshers in the final with x winning gold with a time of ... and se
 |   2012 | London         | Women    | Tiki Gelana        | 2:23:07      | OR      |
 |   2016 | Rio de Janeiro | Women    | Jemima Sumgong     | 2:24:04      | -       |
 |   2020 | Tokyo          | Women    | Peres Jepchirchir  | 2:27:20      | -       |
+
+
+
 
 
 
