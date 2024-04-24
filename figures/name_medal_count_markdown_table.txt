@@ -1,0 +1,13 @@
+| Gender   | Name                | Gold   | Silver   | Bronze   |   Total Medals |
+|:---------|:--------------------|:-------|:---------|:---------|---------------:|
+| Men      | Abebe Bikila        | 2      | -        | -        |              2 |
+| Men      | Eliud Kipchoge      | 2      | -        | -        |              2 |
+| Men      | Erick Wainaina      | -      | 1        | 1        |              2 |
+| Men      | Frank Shorter       | 1      | 1        | -        |              2 |
+| Men      | Karel Lismont       | -      | 1        | 1        |              2 |
+| Men      | Mamo Wolde          | 1      | -        | 1        |              2 |
+| Men      | Waldemar Cierpinski | 2      | -        | -        |              2 |
+| Women    | Catherine Ndereba   | -      | 2        | -        |              2 |
+| Women    | Rosa Mota           | 1      | -        | 1        |              2 |
+| Women    | Valentina Yegorova  | 1      | 1        | -        |              2 |
+| Women    | Yuko Arimori        | -      | 1        | 1        |              2 |

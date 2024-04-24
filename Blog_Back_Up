@@ -53,15 +53,63 @@ As can be seen in Figure 1 the number of successful finishers has increased dram
     <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_by_continent_stacked_plot.png?raw=true" width="400" height="325">
 </div>
 
-Figure 2 shows the combined male and female finishers each year split by their continent. As can be seen the first 3 years only Europeans and North Americans competed, this introduction of Africans in London 1908 increases the number of finishers and the first Asian, Oceanic and South American finishers in Antwerp 1920. The data behind this graph as show in absolute values in [Appendix 1](######Appendix-1:-Continents-competing-over-time-(number-of-finishers)) and as percentages of total finishers in the [Appendix 2](####Appendix-2:-Continents-competing-over-time-(percentage-of-finishers)) shows that although there were only 3 runners in the first marathon in 1896 all of them were European compared to Tokyo 2020 where the majority of finishers were European at 38% but there is a greater presence of athletes from other continents such as 17% of the field coming from Africa and a further 17% from Asia.
+Figure 2 shows the combined male and female finishers each year split by their continent. As can be seen the first 3 years only Europeans and North Americans competed, this introduction of Africans in London 1908 increases the number of finishers and the first Asian, Oceanic and South American finishers in Antwerp 1920. The data behind this graph, as shown in absolute values in [Appendix 1](######Appendix-1:-Continents-competing-over-time-(number-of-finishers)) and as percentages of total finishers in the [Appendix 2](####Appendix-2:-Continents-competing-over-time-(percentage-of-finishers)), shows that although there were only 3 finishers for the first marathon in 1896 all of them were European compared to Tokyo 2020 where the majority of finishers were European at 38% but there was a greater presence of athletes from other continents with 17% of the field coming from Africa and a further 17% from Asia. Figure 2 and the tables also show that in 1992, 2000 and from 2012 to 2020 there are competitors from 'Other' continents, here 'Other' describes when an athlete is not running for a specific country. Figure 3 below is a table showing who these runners where and who they were competing as. 
     
 </div>
 
-## Women
+> Figure 3
 
-## Records
+|   Year | Location       | Gender   |   Position | Name                  | Nationality                  | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:----------------------|:-----------------------------|:-------------|
+|   1992 | Barcelona      | Men      |         22 | Yakov Tolstikov       | Unified Team                 | 2:17:04      |
+|   1992 | Barcelona      | Women    |          1 | Valentina Yegorova    | Unified Team                 | 2:32:41      |
+|   1992 | Barcelona      | Women    |          8 | Ramilya Burangulova   | Unified Team                 | 2:38:46      |
+|   2000 | Sydney         | Men      |         71 | Calisto da Costa      | Individual Olympic Athletes  | 2:33:11      |
+|   2000 | Sydney         | Women    |         43 | Aguida Amaral         | Individual Olympic Athletes  | 3:10:55      |
+|   2012 | London         | Men      |         47 | Guor Marial           | Independent Olympic Athletes | 2:19:32      |
+|   2016 | Rio de Janeiro | Men      |         89 | Yonas Kinde           | Refugee Olympic Team         | 2:24:08      |
+|   2020 | Tokyo          | Men      |         16 | Tachlowini Gabriyesos | Refugee Olympic Team         | 2:14:02      |
 
-## Over time
+<div style="text-align: justify;">
+    
+The [Unified Team](https://www.olympedia.org/countries/EUN) competing in the 1992 Barcelona Olympics was a joint team consiting of all bar three of the former soviet republics after of the Soviet revolution of 1991 [(Olympedia)](https://www.olympedia.org/countries/EUN). The [Individual Olympic Athletes](https://en.wikipedia.org/wiki/Individual_Olympic_Athletes_at_the_2000_Summer_Olympics) and [Independent Olympic Athletes](https://en.wikipedia.org/wiki/Independent_Olympic_Athletes_at_the_2012_Summer_Olympics) competing were athletes from East Timor in Sydney 2000 and athletes from South Sudan in London 2012 respectively. The athletes from South Sudan competed under the Olympic flag as the newly formed state "had not yet set up an Olympic Committee" [(Olympedia)](https://www.olympedia.org/countries/IOA). The [Refugee Olympic Team](https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_Olympics) was first introduced in the 2016 Olympics to send "a message of hope and inclusion to millions of forcibly displaced people around the world and inspiring the world with the strength of their human spirit" [(Olympics.com)](https://olympics.com/ioc/refugee-olympic-team) with [Yonas Kinde](https://olympics.com/en/athletes/yonas-kinde) of Ethiopian decent and [Tachlowini Gabriyesos](https://olympics.com/en/athletes/tachlowini-gabiyesos) of Eritrean decent competing in the 2016 and 2020 marathons respectively as shown in Figure 3.
+    
+</div>
+
+## Improvements Over Time & Records!
+<div style="text-align: justify;">
+
+</div>
+
+
+<div style="text-align: justify;">
+    
+Next I decided to dig into the data to look at how the times changed over the years especially for the medalists. Figure 4 below shows the winning times at each Olympics 
+    
+With a time of 2 hours 58 minutes and 50 seconds 
+    
+</div>
+
+> Figure 4: Winning Times and Records (1896-2020)
+
+
+<div style="float: left; margin-right: 10px;">
+        <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true" width="545" height="325">
+</div>
+    
+
+    
+<div style="float: left; margin-right: 10px;">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/medal_times_plot.png?raw=true" width="550" height="325">
+</div>
+
+![Winning Times and Records](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true)
+
+
+
+## Gender Gap
+
+## The First Time Was So Nice I Did it Twice (or more)
 
 ## Appendix
 #### Appendix 1: Continents competing over time (number of finishers)
@@ -130,6 +178,20 @@ Figure 2 shows the combined male and female finishers each year split by their c
 |   2016 | 16%      | 25%    | 33%      | 7%              | 2%        | -       | 14%             |
 |   2020 | 17%      | 17%    | 38%      | 12%             | 5%        | -       | 8%              |
 
+#### Appdendix 3 - Women Winners
+|   Year | Location       | Gender   | Name               | Time_Taken   | Notes   |
+|-------:|:---------------|:---------|:-------------------|:-------------|:--------|
+|   1984 | Los Angeles    | Women    | Joan Benoit        | 2:24:52      | OR      |
+|   1988 | Seoul          | Women    | Rosa Mota          | 2:25:40      | -       |
+|   1992 | Barcelona      | Women    | Valentina Yegorova | 2:32:41      | -       |
+|   1996 | Atlanta        | Women    | Fatuma Roba        | 2:26:05      | -       |
+|   2000 | Sydney         | Women    | Naoko Takahashi    | 2:23:14      | OR      |
+|   2004 | Athens         | Women    | Mizuki Noguchi     | 2:26:20      | -       |
+|   2008 | Beijing        | Women    | Constantina Diță   | 2:26:44      | -       |
+|   2012 | London         | Women    | Tiki Gelana        | 2:23:07      | OR      |
+|   2016 | Rio de Janeiro | Women    | Jemima Sumgong     | 2:24:04      | -       |
+|   2020 | Tokyo          | Women    | Peres Jepchirchir  | 2:27:20      | -       |
+
 
 ## Plots
 ![Gender Average Time Difference](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true)
@@ -160,22 +222,6 @@ Figure 2 shows the combined male and female finishers each year split by their c
 |   2012 | London         | Men      |         47 | Guor Marial           | Independent Olympic Athletes | 2:19:32      |
 |   2016 | Rio de Janeiro | Men      |         89 | Yonas Kinde           | Refugee Olympic Team         | 2:24:08      |
 |   2020 | Tokyo          | Men      |         16 | Tachlowini Gabriyesos | Refugee Olympic Team         | 2:14:02      |
-
-
-
-#### Women Winners
-|   Year | Location       | Gender   | Name               | Time_Taken   | Notes   |
-|-------:|:---------------|:---------|:-------------------|:-------------|:--------|
-|   1984 | Los Angeles    | Women    | Joan Benoit        | 2:24:52      | OR      |
-|   1988 | Seoul          | Women    | Rosa Mota          | 2:25:40      | -       |
-|   1992 | Barcelona      | Women    | Valentina Yegorova | 2:32:41      | -       |
-|   1996 | Atlanta        | Women    | Fatuma Roba        | 2:26:05      | -       |
-|   2000 | Sydney         | Women    | Naoko Takahashi    | 2:23:14      | OR      |
-|   2004 | Athens         | Women    | Mizuki Noguchi     | 2:26:20      | -       |
-|   2008 | Beijing        | Women    | Constantina Diță   | 2:26:44      | -       |
-|   2012 | London         | Women    | Tiki Gelana        | 2:23:07      | OR      |
-|   2016 | Rio de Janeiro | Women    | Jemima Sumgong     | 2:24:04      | -       |
-|   2020 | Tokyo          | Women    | Peres Jepchirchir  | 2:27:20      | -       |
 
 
 

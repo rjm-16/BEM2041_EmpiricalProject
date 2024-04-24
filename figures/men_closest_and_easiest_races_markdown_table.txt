@@ -1,0 +1,8 @@
+|   Year | Location   | Gender   |   Position | Name                | Nationality   | Time_Taken   | Time behind 1st                                |
+|-------:|:-----------|:---------|-----------:|:--------------------|:--------------|:-------------|:-----------------------------------------------|
+|   1996 | Atlanta    | Men      |          2 | Lee Bong-ju         | South Korea   | 2:12:39      | 0 minutes, 3 seconds, 0 hundredths of second   |
+|   1920 | Antwerp    | Men      |          2 | Jüri Lossmann       | Estonia       | 2:32:48.6    | 0 minutes, 12 seconds, 80 hundredths of second |
+|   1988 | Seoul      | Men      |          2 | Douglas Wakiihuri   | Kenya         | 2:10:47      | 0 minutes, 15 seconds, 0 hundredths of second  |
+|   1924 | Paris      | Men      |          2 | Romeo Bertini       | Italy         | 2:47:19.6    | 5 minutes, 57 seconds, 0 hundredths of second  |
+|   1904 | St. Louis  | Men      |          2 | Albert Corey        | France        | 3:34:52      | 5 minutes, 59 seconds, 0 hundredths of second  |
+|   1896 | Athens     | Men      |          2 | Charilaos Vasilakos | Greece        | 3:06:03      | 7 minutes, 13 seconds, 0 hundredths of second  |

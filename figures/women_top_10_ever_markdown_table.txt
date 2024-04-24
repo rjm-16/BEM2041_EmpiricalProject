@@ -1,0 +1,12 @@
+|   Year | Location       | Gender   |   Position | Name                      | Nationality   | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:--------------------------|:--------------|:-------------|
+|   2012 | London         | Women    |          1 | Tiki Gelana               | Ethiopia      | 2:23:07      |
+|   2012 | London         | Women    |          2 | Priscah Jeptoo            | Kenya         | 2:23:12      |
+|   2000 | Sydney         | Women    |          1 | Naoko Takahashi           | Japan         | 2:23:14      |
+|   2000 | Sydney         | Women    |          2 | Lidia Șimon               | Romania       | 2:23:22      |
+|   2012 | London         | Women    |          3 | Tatyana Petrova Arkhipova | Russia        | 2:23:29      |
+|   2012 | London         | Women    |          4 | Mary Jepkosgei Keitany    | Kenya         | 2:23:56      |
+|   2016 | Rio de Janeiro | Women    |          1 | Jemima Sumgong            | Kenya         | 2:24:04      |
+|   2016 | Rio de Janeiro | Women    |          2 | Eunice Kirwa              | Bahrain       | 2:24:13      |
+|   2016 | Rio de Janeiro | Women    |          3 | Mare Dibaba               | Ethiopia      | 2:24:30      |
+|   2012 | London         | Women    |          5 | Tetyana Hamera-Shmyrko    | Ukraine       | 2:24:32      |

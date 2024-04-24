@@ -1,0 +1,8 @@
+|   Year | Location   | Gender   |   Position | Name                      | Nationality   | Time_Taken   | Time behind 2nd                               |
+|-------:|:-----------|:---------|-----------:|:--------------------------|:--------------|:-------------|:----------------------------------------------|
+|   2008 | Beijing    | Women    |          3 | Zhou Chunxiu              | China         | 2:27:07      | 0 minutes, 1 seconds, 0 hundredths of second  |
+|   2020 | Tokyo      | Women    |          3 | Molly Seidel              | United States | 2:27:46      | 0 minutes, 10 seconds, 0 hundredths of second |
+|   2012 | London     | Women    |          3 | Tatyana Petrova Arkhipova | Russia        | 2:23:29      | 0 minutes, 17 seconds, 0 hundredths of second |
+|   2004 | Athens     | Women    |          3 | Deena Kastor              | United States | 2:27:20      | 0 minutes, 48 seconds, 0 hundredths of second |
+|   1992 | Barcelona  | Women    |          3 | Lorraine Moller           | New Zealand   | 2:33:59      | 1 minutes, 10 seconds, 0 hundredths of second |
+|   2000 | Sydney     | Women    |          3 | Joyce Chepchumba          | Kenya         | 2:24:45      | 1 minutes, 23 seconds, 0 hundredths of second |

@@ -1,0 +1,12 @@
+|   Year | Location       | Gender   |   Position | Name                     | Nationality   | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:-------------------------|:--------------|:-------------|
+|   2008 | Beijing        | Men      |          1 | Samuel Wanjiru           | Kenya         | 2:06:32      |
+|   2008 | Beijing        | Men      |          2 | Jaouad Gharib            | Morocco       | 2:07:16      |
+|   2012 | London         | Men      |          1 | Stephen Kiprotich        | Uganda        | 2:08:01      |
+|   2012 | London         | Men      |          2 | Abel Kirui               | Kenya         | 2:08:27      |
+|   2020 | Tokyo          | Men      |          1 | Eliud Kipchoge           | Kenya         | 2:08:38      |
+|   2016 | Rio de Janeiro | Men      |          1 | Eliud Kipchoge           | Kenya         | 2:08:44      |
+|   1984 | Los Angeles    | Men      |          1 | Carlos Lopes             | Portugal      | 2:09:21      |
+|   2012 | London         | Men      |          3 | Wilson Kipsang Kiprotich | Kenya         | 2:09:37      |
+|   2016 | Rio de Janeiro | Men      |          2 | Feyisa Lilesa            | Ethiopia      | 2:09:54      |
+|   1976 | Montreal       | Men      |          1 | Waldemar Cierpinski      | East Germany  | 2:09:55      |
