@@ -1,31 +1,31 @@
-|   Year | Location       | Gender   | Name                | Time_Taken   | Notes   |
-|-------:|:---------------|:---------|:--------------------|:-------------|:--------|
-|   1896 | Athens         | Men      | Spyridon Louis      | 2:58:50      | OR      |
-|   1900 | Paris          | Men      | Michel Théato       | 2:59:45      | -       |
-|   1904 | St. Louis      | Men      | Thomas Hicks        | 3:28:53      | -       |
-|   1908 | London         | Men      | Johnny Hayes        | 2:55:18.4    | WR      |
-|   1912 | Stockholm      | Men      | Ken McArthur        | 2:36:54.8    | OR      |
-|   1920 | Antwerp        | Men      | Hannes Kolehmainen  | 2:32:35.8    | WR      |
-|   1924 | Paris          | Men      | Albin Stenroos      | 2:41:22.6    | -       |
-|   1928 | Amsterdam      | Men      | Boughera El Ouafi   | 2:32:57      | -       |
-|   1932 | Los Angeles    | Men      | Juan Carlos Zabala  | 2:31:36      | OR      |
-|   1936 | Berlin         | Men      | Kitei Son           | 2:29:19.2    | OR      |
-|   1948 | London         | Men      | Delfo Cabrera       | 2:34:51.6    | -       |
-|   1952 | Helsinki       | Men      | Emil Zátopek        | 2:23:03.2    | OR      |
-|   1956 | Melbourne      | Men      | Alain Mimoun        | 2:25:00      | -       |
-|   1960 | Rome           | Men      | Abebe Bikila        | 2:15:16.2    | WR      |
-|   1964 | Tokyo          | Men      | Abebe Bikila        | 2:12:11.2    | WR      |
-|   1968 | Mexico City    | Men      | Mamo Wolde          | 2:20:26      | -       |
-|   1972 | Munich         | Men      | Frank Shorter       | 2:12:19      | -       |
-|   1976 | Montreal       | Men      | Waldemar Cierpinski | 2:09:55      | OR      |
-|   1980 | Moscow         | Men      | Waldemar Cierpinski | 2:11:03      | -       |
-|   1984 | Los Angeles    | Men      | Carlos Lopes        | 2:09:21      | OR      |
-|   1988 | Seoul          | Men      | Gelindo Bordin      | 2:10:32      | -       |
-|   1992 | Barcelona      | Men      | Hwang Young-Cho     | 2:13:23      | -       |
-|   1996 | Atlanta        | Men      | Josia Thugwane      | 2:12:36      | -       |
-|   2000 | Sydney         | Men      | Gezahegne Abera     | 2:10:11      | -       |
-|   2004 | Athens         | Men      | Stefano Baldini     | 2:10:55      | -       |
-|   2008 | Beijing        | Men      | Samuel Wanjiru      | 2:06:32      | OR      |
-|   2012 | London         | Men      | Stephen Kiprotich   | 2:08:01      | -       |
-|   2016 | Rio de Janeiro | Men      | Eliud Kipchoge      | 2:08:44      | -       |
-|   2020 | Tokyo          | Men      | Eliud Kipchoge      | 2:08:38      | -       |
+|   Year | Location       | Gender   | Name                | Nationality    | Time_Taken   | Notes   |
+|-------:|:---------------|:---------|:--------------------|:---------------|:-------------|:--------|
+|   1896 | Athens         | Men      | Spyridon Louis      | Greece         | 2:58:50      | OR      |
+|   1900 | Paris          | Men      | Michel Théato       | France         | 2:59:45      | -       |
+|   1904 | St. Louis      | Men      | Thomas Hicks        | United States  | 3:28:53      | -       |
+|   1908 | London         | Men      | Johnny Hayes        | United States  | 2:55:18.4    | WR      |
+|   1912 | Stockholm      | Men      | Ken McArthur        | South Africa   | 2:36:54.8    | OR      |
+|   1920 | Antwerp        | Men      | Hannes Kolehmainen  | Finland        | 2:32:35.8    | WR      |
+|   1924 | Paris          | Men      | Albin Stenroos      | Finland        | 2:41:22.6    | -       |
+|   1928 | Amsterdam      | Men      | Boughera El Ouafi   | France         | 2:32:57      | -       |
+|   1932 | Los Angeles    | Men      | Juan Carlos Zabala  | Argentina      | 2:31:36      | OR      |
+|   1936 | Berlin         | Men      | Kitei Son           | Japan          | 2:29:19.2    | OR      |
+|   1948 | London         | Men      | Delfo Cabrera       | Argentina      | 2:34:51.6    | -       |
+|   1952 | Helsinki       | Men      | Emil Zátopek        | Czechoslovakia | 2:23:03.2    | OR      |
+|   1956 | Melbourne      | Men      | Alain Mimoun        | France         | 2:25:00      | -       |
+|   1960 | Rome           | Men      | Abebe Bikila        | Ethiopia       | 2:15:16.2    | WR      |
+|   1964 | Tokyo          | Men      | Abebe Bikila        | Ethiopia       | 2:12:11.2    | WR      |
+|   1968 | Mexico City    | Men      | Mamo Wolde          | Ethiopia       | 2:20:26      | -       |
+|   1972 | Munich         | Men      | Frank Shorter       | United States  | 2:12:19      | -       |
+|   1976 | Montreal       | Men      | Waldemar Cierpinski | East Germany   | 2:09:55      | OR      |
+|   1980 | Moscow         | Men      | Waldemar Cierpinski | East Germany   | 2:11:03      | -       |
+|   1984 | Los Angeles    | Men      | Carlos Lopes        | Portugal       | 2:09:21      | OR      |
+|   1988 | Seoul          | Men      | Gelindo Bordin      | Italy          | 2:10:32      | -       |
+|   1992 | Barcelona      | Men      | Hwang Young-Cho     | South Korea    | 2:13:23      | -       |
+|   1996 | Atlanta        | Men      | Josia Thugwane      | South Africa   | 2:12:36      | -       |
+|   2000 | Sydney         | Men      | Gezahegne Abera     | Ethiopia       | 2:10:11      | -       |
+|   2004 | Athens         | Men      | Stefano Baldini     | Italy          | 2:10:55      | -       |
+|   2008 | Beijing        | Men      | Samuel Wanjiru      | Kenya          | 2:06:32      | OR      |
+|   2012 | London         | Men      | Stephen Kiprotich   | Uganda         | 2:08:01      | -       |
+|   2016 | Rio de Janeiro | Men      | Eliud Kipchoge      | Kenya          | 2:08:44      | -       |
+|   2020 | Tokyo          | Men      | Eliud Kipchoge      | Kenya          | 2:08:38      | -       |

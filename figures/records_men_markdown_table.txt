@@ -1,14 +1,14 @@
-|   Year | Location    | Gender   | Name                | Time_Taken   | Notes   |
-|-------:|:------------|:---------|:--------------------|:-------------|:--------|
-|   1896 | Athens      | Men      | Spyridon Louis      | 2:58:50      | OR      |
-|   1908 | London      | Men      | Johnny Hayes        | 2:55:18.4    | WR      |
-|   1912 | Stockholm   | Men      | Ken McArthur        | 2:36:54.8    | OR      |
-|   1920 | Antwerp     | Men      | Hannes Kolehmainen  | 2:32:35.8    | WR      |
-|   1932 | Los Angeles | Men      | Juan Carlos Zabala  | 2:31:36      | OR      |
-|   1936 | Berlin      | Men      | Kitei Son           | 2:29:19.2    | OR      |
-|   1952 | Helsinki    | Men      | Emil Zátopek        | 2:23:03.2    | OR      |
-|   1960 | Rome        | Men      | Abebe Bikila        | 2:15:16.2    | WR      |
-|   1964 | Tokyo       | Men      | Abebe Bikila        | 2:12:11.2    | WR      |
-|   1976 | Montreal    | Men      | Waldemar Cierpinski | 2:09:55      | OR      |
-|   1984 | Los Angeles | Men      | Carlos Lopes        | 2:09:21      | OR      |
-|   2008 | Beijing     | Men      | Samuel Wanjiru      | 2:06:32      | OR      |
+|   Year | Location    | Gender   | Name                | Nationality    | Time_Taken   | Notes   |
+|-------:|:------------|:---------|:--------------------|:---------------|:-------------|:--------|
+|   1896 | Athens      | Men      | Spyridon Louis      | Greece         | 2:58:50      | OR      |
+|   1908 | London      | Men      | Johnny Hayes        | United States  | 2:55:18.4    | WR      |
+|   1912 | Stockholm   | Men      | Ken McArthur        | South Africa   | 2:36:54.8    | OR      |
+|   1920 | Antwerp     | Men      | Hannes Kolehmainen  | Finland        | 2:32:35.8    | WR      |
+|   1932 | Los Angeles | Men      | Juan Carlos Zabala  | Argentina      | 2:31:36      | OR      |
+|   1936 | Berlin      | Men      | Kitei Son           | Japan          | 2:29:19.2    | OR      |
+|   1952 | Helsinki    | Men      | Emil Zátopek        | Czechoslovakia | 2:23:03.2    | OR      |
+|   1960 | Rome        | Men      | Abebe Bikila        | Ethiopia       | 2:15:16.2    | WR      |
+|   1964 | Tokyo       | Men      | Abebe Bikila        | Ethiopia       | 2:12:11.2    | WR      |
+|   1976 | Montreal    | Men      | Waldemar Cierpinski | East Germany   | 2:09:55      | OR      |
+|   1984 | Los Angeles | Men      | Carlos Lopes        | Portugal       | 2:09:21      | OR      |
+|   2008 | Beijing     | Men      | Samuel Wanjiru      | Kenya          | 2:06:32      | OR      |

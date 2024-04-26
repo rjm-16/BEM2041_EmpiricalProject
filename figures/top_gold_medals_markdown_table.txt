@@ -1,5 +1,5 @@
-| Gender   | Name                | Nationality   | Position   |   Total_Medals | Years        |
-|:---------|:--------------------|:--------------|:-----------|---------------:|:-------------|
-| Men      | Abebe Bikila        | Ethiopia      | Gold       |              2 | [1960, 1964] |
-| Men      | Eliud Kipchoge      | Kenya         | Gold       |              2 | [2016, 2020] |
-| Men      | Waldemar Cierpinski | East Germany  | Gold       |              2 | [1976, 1980] |
+| Gender   | Name                | Nationality   | Position   |   Total_Medals | Years        | Times                      |
+|:---------|:--------------------|:--------------|:-----------|---------------:|:-------------|:---------------------------|
+| Men      | Abebe Bikila        | Ethiopia      | Gold       |              2 | [1960, 1964] | ['2:15:16.2', '2:12:11.2'] |
+| Men      | Eliud Kipchoge      | Kenya         | Gold       |              2 | [2016, 2020] | ['2:08:44', '2:08:38']     |
+| Men      | Waldemar Cierpinski | East Germany  | Gold       |              2 | [1976, 1980] | ['2:09:55', '2:11:03']     |

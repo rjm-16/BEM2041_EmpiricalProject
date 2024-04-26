@@ -1,6 +1,6 @@
 <center>
     
-# The Unique History of the Marathon at the Olympics
+# The Unique History of the Olympic Marathon
     
 </center>
 
@@ -9,30 +9,32 @@
 #### With the Paris 2024 Olympic Games fast approaching and the London Marathon last weekend, for this blog I decided to merge the two and take a deep dive into the history of the Marathon at the Olympic Games. 
 </div>
 
-> :spiral_note_pad: For the following analysis I have only used data for atheletes who finshed the Marathon with a recorded time for every Olympics Games from Athens 1896 to Tokyo 2020.
+> :spiral_note_pad: For the following analysis, I have only used data for athletes who finished the Marathon with a recorded time for every Olympic Games from Athens 1896 to Tokyo 2020.
 
-## What is the Marathon and Why?!
+## The Marathon and its Origin Story
 
 <div style="text-align: justify;">
 
-The Marathon stems from the myth about Pheidippides, a Greek messenger who ran from Marathon to Athens in 490BC to proclaim "Rejoice, we win" referring to a battle against the invading Persians. After delivering his important message he died of exhaustion 'after sprinting the 25 miles to Athens' ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')).
+The marathon stems from the myth about Pheidippides, a Greek messenger who ran from Marathon to Athens in 490BC to proclaim "Rejoice, we win" referring to a battle against the invading Persians. After delivering his important message he died of exhaustion "after sprinting the 25 miles to Athens" ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')).
 
-First run at the 1986 Olympics in Athens, the inaugural modern Olympic Games, the finish line was in the Panathenaic Stadium roughly 40km away from the start in Marathon ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')). The well know distance now of 26 miles and 385 yards (42.195km) was later solidified at the 1908 Olympics in London, with the start line in Windsor and the finish line in front of the Royal box in the Olympic Stadium in London.
+First run at the 1896 Olympics in Athens, the inaugural modern Olympic Games, the finish line was in the Panathenaic Stadium roughly 40km away from the start in Marathon ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')). The well-known distance  of 26 miles and 385 yards (42.195km) was later solidified at the 1908 Olympics in London, with the start line in Windsor and the finish line in front of the Royal Box in the Olympic Stadium in London.
 
-The Marathon at the Olympics has an infamous history of being one of the more eventful races especially in the early years with the 1904 Paris Olympics being one of the strangest races. The initial winner was later disqualified for having a lift from his trainer in a car for 11 out of the 24 miles before finishing the last 6 miles and claiming the victory. ... who crossed the line second to later be announced the winner was carried across the finish line by his training team before collapsing from exhaustion. ..., a postman from Cuba, who hitchhiked his way to the games after losing all his money gambling in St Louis finished 4th, even after eating some rotten apples in an orchard and taking a 20 minute nap to ease the resulting stomach cramps before continuing and finishing the race. 
+The Marathon at the Olympics has an infamous history of being one of the more eventful races, especially in the early years with the 1904 Paris Olympics being one of the strangest races. The initial winner was later disqualified for having a lift from his trainer in a car for 11 out of the 24 miles before finishing the last 6 miles and claiming the victory. ... who crossed the line second to later be announced the winner was carried across the finish line by his training team before collapsing from exhaustion. ..., a postman from Cuba, who hitchhiked his way to the games after losing all his money gambling in St Louis finished 4th, even after eating some rotten apples in an orchard and taking a 20-minute nap to ease the resulting stomach cramps before continuing and finishing the race. 
 
-The longest time to finished the Marathon was 54 years 8 months 6 days 5 hours 32 minutes and 20 seconds by Shizo Kanakuri from Japan who after tiring, dropped out of the race but ashamed of himself didn't inform any race official and returned home to Japan. Placed on the missing persons list for Sweeden for over 50 years he was found and invited to finish his marathon 54 years later. I removed this row from my data as it is a large anomaly which could put into question the reliability of my further analysis. 
+The longest official time to finish the Marathon was 54 years 8 months 6 days 5 hours 32 minutes and 20 seconds by Shizo Kanakuri from Japan who after tiring, dropped out of the race but ashamed of his performance didn't inform any race officials and returned home to Japan. Placed on the missing persons list of Sweden for over 50 years he was found and invited to finish his marathon 54 years later.
 
 #### 54 year marathon:
-|   Year | Location   | Gender   |   Position | Name           | Nationality   | Time_Taken          |
-|-------:|:-----------|:---------|-----------:|:---------------|:--------------|:--------------------|
-|   1912 | Stockholm  | Men      |         36 | Shizo Kanakuri | Japan         | 54:08:06:05:32:20.3 |
+|   Year | Location   | Gender   | Name           | Nationality   | Time_Taken          |
+|-------:|:-----------|:---------|:---------------|:--------------|:--------------------|
+|   1912 | Stockholm  | Men      | Shizo Kanakuri | Japan         | 54:08:06:05:32:20.3 |
 
-The Marathon has come a long way from its early years and is now a highly competitive race which has seen vast improvements in the finishing times since its start in 1896. This is what I am going to delve deeper into in this blog!
+I removed this row from my data as it is a large anomaly which could put into question the reliability of my further analysis. 
+
+The Marathon has come a long way from its early years and is now a highly competitive race that has seen vast improvements in the finishing times since its start in 1896. This is what I am going to delve deeper into in this blog!
 </div>
 
     
-## Finishers Over Time
+## Number of Finishers Over Time
 
 <div style="text-align: justify;">
 
@@ -41,19 +43,19 @@ To begin, I looked at the total number of finishers for each of the races since 
 > Figure 1: Number of Finishers by Gender
 
 <div style="float: left;">
-    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true" width="500" height="275">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/men_total_finishers_plot.png?raw=true" width="500" height="275">
 </div>
 
-<img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true" width="210" height="275">
+<img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/women_total_finishers_plot.png?raw=true" width="210" height="275">
 
-As can be seen in Figure 1 the number of successful finishers has increased dramatically since the inaugural marathon in Athens where only 3 runners finished with official times compared to the 139 male finishers and 133 female finishers (totalling to 272 finishers) in the 2016 Rio de Janeiro Olympics. The number of finishers for the first three years were single figures, then from the 1908 London Olympics the number of finishers increases and stayed roughly between 20 to 40 before another step up from the 1960 Rome Olympics to around 60 before a final increase to between 70 to 100 finishers from the 1984 Los Angeles Olympics. Additionally, it has only been since the 1984 Los Angeles Olympics that women have competed in the marathon. The womens race  had slightly less finishers than the mens until 2012 London Olympics where there were 22 more finishers, and since then the number of finishers with a recorded time for both men and women have been very similar.
+As can be seen in Figure 1 the number of successful finishers has increased dramatically since the inaugural marathon in Athens where only 3 runners finished with official times compared to the 139 male finishers and 133 female finishers (totaling 272 finishers) in the 2016 Rio de Janeiro Olympics. The number of finishers for the first three years was in the single figures, then from the 1908 London Olympics, the number of finishers increased and remained roughly between 20 to 40 before another step up from the 1960 Rome Olympics to around 60 before a final increase to between 70 to 100 finishers from the 1984 Los Angeles Olympics. Additionally, it has only been since the 1984 Los Angeles Olympics that women have competed in the marathon. The women's race  had slightly fewer finishers than the men's until the 2012 London Olympics where there were 22 more finishers, and since then the number of finishers with a recorded time for both men and women have been very similar.
 
 > Figure 2: Finishers by Continent
 <div style="float: left; margin-right: 10px;">
     <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_by_continent_stacked_plot.png?raw=true" width="400" height="325">
 </div>
 
-Figure 2 shows the combined male and female finishers each year split by their continent. As can be seen the first 3 years only Europeans and North Americans competed, this introduction of Africans in London 1908 increases the number of finishers and the first Asian, Oceanic and South American finishers in Antwerp 1920. The data behind this graph, as shown in absolute values in [Appendix 1](######Appendix-1:-Continents-competing-over-time-(number-of-finishers)) and as percentages of total finishers in the [Appendix 2](####Appendix-2:-Continents-competing-over-time-(percentage-of-finishers)), shows that although there were only 3 finishers for the first marathon in 1896 all of them were European compared to Tokyo 2020 where the majority of finishers were European at 38% but there was a greater presence of athletes from other continents with 17% of the field coming from Africa and a further 17% from Asia. Figure 2 and the tables also show that in 1992, 2000 and from 2012 to 2020 there are competitors from 'Other' continents, here 'Other' describes when an athlete is not running for a specific country. Figure 3 below is a table showing who these runners where and who they were competing as. 
+Figure 2 shows the combined male and female finishers each year split by their continent. As can be seen for the first 3 years only Europeans and North Americans competed, this introduction of African athletes in London 1908 increased the number of finishers, and the first Asian, Oceanic and South American finishers are observed in Antwerp 1920. The data behind this graph, as shown in absolute values in [Appendix 1](####Appendix-1:-Continents-competing-over-time-(number-of-finishers)) and as percentages of total finishers in [Appendix 2](####Appendix-2:-Continents-competing-over-time-(percentage-of-finishers)), shows that although there were only 3 finishers for the first marathon in 1896 all of them were European compared to Tokyo 2020 where the majority of finishers were European at 38% but there was a greater presence of athletes from other continents with 17% of the field coming from Africa and a further 17% from Asia. Figure 2 and the supporting tables also show that in 1992, 2000 and from 2012 to 2020 there are competitors from the 'Other' continent, here 'Other' describes when an athlete is not running for a specific country. Figure 3 below is a table showing who these runners who they were competing for. 
     
 </div>
 
@@ -72,47 +74,169 @@ Figure 2 shows the combined male and female finishers each year split by their c
 
 <div style="text-align: justify;">
     
-The [Unified Team](https://www.olympedia.org/countries/EUN) competing in the 1992 Barcelona Olympics was a joint team consiting of all bar three of the former soviet republics after of the Soviet revolution of 1991 [(Olympedia)](https://www.olympedia.org/countries/EUN). The [Individual Olympic Athletes](https://en.wikipedia.org/wiki/Individual_Olympic_Athletes_at_the_2000_Summer_Olympics) and [Independent Olympic Athletes](https://en.wikipedia.org/wiki/Independent_Olympic_Athletes_at_the_2012_Summer_Olympics) competing were athletes from East Timor in Sydney 2000 and athletes from South Sudan in London 2012 respectively. The athletes from South Sudan competed under the Olympic flag as the newly formed state "had not yet set up an Olympic Committee" [(Olympedia)](https://www.olympedia.org/countries/IOA). The [Refugee Olympic Team](https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_Olympics) was first introduced in the 2016 Olympics to send "a message of hope and inclusion to millions of forcibly displaced people around the world and inspiring the world with the strength of their human spirit" [(Olympics.com)](https://olympics.com/ioc/refugee-olympic-team) with [Yonas Kinde](https://olympics.com/en/athletes/yonas-kinde) of Ethiopian decent and [Tachlowini Gabriyesos](https://olympics.com/en/athletes/tachlowini-gabiyesos) of Eritrean decent competing in the 2016 and 2020 marathons respectively as shown in Figure 3.
+The [Unified Team](https://www.olympedia.org/countries/EUN) competing in the 1992 Barcelona Olympics was a joint team consisting of all bar three of the former Soviet Republics after the Soviet Revolution of 1991 [(Olympedia)](https://www.olympedia.org/countries/EUN). The [Individual Olympic Athletes](https://en.wikipedia.org/wiki/Individual_Olympic_Athletes_at_the_2000_Summer_Olympics) and [Independent Olympic Athletes](https://en.wikipedia.org/wiki/Independent_Olympic_Athletes_at_the_2012_Summer_Olympics) competing were athletes from East Timor in Sydney 2000 and athletes from South Sudan in London 2012 respectively. The athletes from South Sudan competed under the Olympic flag as the newly formed state "had not yet set up an Olympic Committee" [(Olympedia)](https://www.olympedia.org/countries/IOA). The [Refugee Olympic Team](https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_Olympics) was first introduced in the 2016 Olympics to send "a message of hope and inclusion to millions of forcibly displaced people around the world and inspiring the world with the strength of their human spirit" [(Olympics.com)](https://olympics.com/ioc/refugee-olympic-team). [Yonas Kinde](https://olympics.com/en/athletes/yonas-kinde) of Ethiopian decent and [Tachlowini Gabriyesos](https://olympics.com/en/athletes/tachlowini-gabiyesos) of Eritrean decent competed in the 2016 and 2020 marathons respectively for the Refugee Olympic Team  as shown in Figure 3.
     
 </div>
 
-## Improvements Over Time & Records!
-<div style="text-align: justify;">
-
-</div>
-
+## Improvements Over Time and Records
 
 <div style="text-align: justify;">
     
-Next I decided to dig into the data to look at how the times changed over the years especially for the medalists. Figure 4 below shows the winning times at each Olympics 
-    
-With a time of 2 hours 58 minutes and 50 seconds 
+Next, I decided to dig into the data to look at how the times changed over the years, especially for the medalists. Figure 4 below shows the winning times at each Olympics for each gender, annotated with the years where an Olympic Record (OR) or World Record (WR) has been set. The data behind these graphs can be found in [Appendix 3](####Appendix-3:-Winning-Times).
     
 </div>
 
 > Figure 4: Winning Times and Records (1896-2020)
 
-
 <div style="float: left; margin-right: 10px;">
         <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true" width="545" height="325">
 </div>
-    
 
-    
-<div style="float: left; margin-right: 10px;">
-    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/medal_times_plot.png?raw=true" width="550" height="325">
+<div style="text-align: justify;">
+
+With a time of 2 hours 58 minutes and 50 seconds, setting the first Olympic Record, the Greek Spyridon Louis won the inaugural marathon in Athens in 1896. 112 years later the current male Olympic Record was set by Samuel Wanjiru, at Beijing 2008, finishing almost a whole hour faster than Louis in 1896. As Figure 4 shows, winning times for the men's competition rapidly improved from nearly 3 hours and 30 minutes in Paris 1900 to 2 hours and 36 minutes in Stockholm 1912. Since then the winning times gradually improved before plateauing around 2 hours 10 minutes from Montreal 1976. The inaugural women's Olympic marathon, at the Los Angeles Games in 1984, was won by Joan Benoit of the USA in a time of 2 hours 24 minutes, and 52 seconds. The Olympic Record was beaten in Sydney 2000 by Naoko Takahashi of ... and then broken again in London 2012 by ... Tiki Gelana who holds the current women's marathon Olympic record of 2 hours 23 minutes and 7 seconds.
 </div>
 
-![Winning Times and Records](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true)
+> Figure 5: Medal Times (1896-2020)
+
+<div style="float: left; margin-right: 10px;">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/medal_times_plot.png?raw=true" >
+</div>
+
+<div style="text-align: justify;">
+
+Figure 5 expands on Figure 4 to show the times of each of the medalists in each Olympics. From this, we are able to see that overall the medalists have finished in much closer succession over the years. The data showing the closest 2nd place finishers can be found in the first three rows of each table in [Appendix 4](####Appendix-4:-Closest-3-and-Easiest-3-Wins), from this table we can see that the closest 2nd place finish was merely 5 seconds behind the winner in the women's race in London 2012 and 3 seconds behind in the men's race in Atlanta 1996. Other close wins were observed in Barcelona 1992 and Sydney 2000, for the women's races, where the gold medal was won by 8 seconds in both events and, for the men's competition, in Antwerp 1920 and Seoul 1988 with the gold medal being won by 12 and 15 seconds respectively. 
+    
+Figure 5 allows us to observe that the largest time difference between second and third place occurred in the men's competition in Paris 1900. Where, as can be found in [Appendix 5](####Appendix-5:-Closest-3-and-Easiest-3-Second-Places), the second place finished a whole 32 minutes and 57 seconds in front of the Bronze medalist, Ernst Fast of Sweden, who crossed the line in a time of 3 hours 37 minutes and 14 seconds. The plot also shows that the slowest finishing time to win a medal was by Arthur Newton representing the USA in the St. Louis 1904 Games who crossed the line after 3 hours 47 minutes and 33 seconds (12 minutes behind second place). From the graph, you can also see that this was the marathon with the slowest winning time of 3 hours 28 minutes and 53 seconds, won by Thomas Hicks representing the USA. The women's races have all been hard fought with medalists crossing the finish line in quicker succession. This is primarily due to the fact that women have only been competing in the Olympic Marathon since 1984 resulting in larger fields of competitors as can be seen by the fact that there have always been at least 37 finsishers for the women's race.
+    
+</div>
+
+## Gender Speed Gap
+
+<div style="text-align: justify;">
+
+Figures 4 and 5 show that male medalists have consistently been faster than female medalists, to invesigate this further I decided to calculate and plot the percentage differences in the average finishing times between men and women from 1984 to 2020 as shown below.
+    
+</div>
+
+> Figure 6: Difference between average finishing times of men and women
+
+<div style="float: left; margin-right: 10px;">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true" width="525" height="360">
+</div>
+
+<div style="text-align: justify;">
+
+The difference between the average finishing time of men and women has fluctuated significantly from a low of 8.27% (meaning that on average the women took 8.27% longer to finish the marathon) to a high of 16.24%, as shown in Figure 6. However, the line of best fit from the linear regression shows that since 1984 the difference in average finishing times has increased over time. This is likely due to the men getting faster than the women at a greater rate rather than the average women finishers getting slower.
+    
+</div>
+
+## Repeat Competitors and Winners
+
+<div style="text-align: justify;">
+
+Although fast times are impressive, the marathon is an extremely strenuous event that takes its toll on the athlete's body, so I thought it would be fitting to acknowledge the impressive athletes that have finished the most Olympic Marathons and won the most medals. 
+
+</div>
+
+> Figure 7: Athletes that have completed at least 4 Olympic Marathons
+
+<div style="text-align: justify;">
+
+| Name                | Nationality   | Gender   |   Number of Finishes | Year                           |
+|:--------------------|:--------------|:---------|---------------------:|:-------------------------------|
+| Érika Olivera       | Chile         | Women    |                    5 | [1996, 2000, 2004, 2012, 2016] |
+| Baikuntha Manandhar | Nepal         | Men      |                    4 | [1976, 1980, 1984, 1988]       |
+| Hussein Ahmed Salah | Djibouti      | Men      |                    4 | [1984, 1988, 1992, 1996]       |
+| José Amado García   | Guatemala     | Men      |                    4 | [2004, 2008, 2012, 2016]       |
+| Karel Lismont       | Belgium       | Men      |                    4 | [1972, 1976, 1980, 1984]       |
+| Pavel Loskutov      | Estonia       | Men      |                    4 | [1996, 2000, 2004, 2008]       |
+| Robert de Castella  | Australia     | Men      |                    4 | [1980, 1984, 1988, 1992]       |
+| Steve Moneghetti    | Australia     | Men      |                    4 | [1988, 1992, 1996, 2000]       |
+| Helalia Johannes    | Namibia       | Women    |                    4 | [2008, 2012, 2016, 2020]       |
+| Lidia Șimon         | Romania       | Women    |                    4 | [1996, 2000, 2008, 2012]       |
+| Lisa Jane Weightman | Australia     | Women    |                    4 | [2008, 2012, 2016, 2020]       |
+| Lorraine Moller     | New Zealand   | Women    |                    4 | [1984, 1988, 1992, 1996]       |
+    
+As shown in Figure 7 above only one athlete, Érika Olivera from Chile, has completed more than 4 Olympic Marathons, with only 7 men and 4 women completing an impressive 4 Olympic Marathons.
+</div>
 
 
+> Figure 8: Repeat winners
 
-## Gender Gap
+| Gender   | Name                | Nationality   | Position   |   Total_Medals | Years        | Times                      |
+|:---------|:--------------------|:--------------|:-----------|---------------:|:-------------|:---------------------------|
+| Men      | Abebe Bikila        | Ethiopia      | Gold       |              2 | [1960, 1964] | ['2:15:16.2', '2:12:11.2'] |
+| Men      | Eliud Kipchoge      | Kenya         | Gold       |              2 | [2016, 2020] | ['2:08:44', '2:08:38']     |
+| Men      | Waldemar Cierpinski | East Germany  | Gold       |              2 | [1976, 1980] | ['2:09:55', '2:11:03']     |
 
-## The First Time Was So Nice I Did it Twice (or more)
+<div style="text-align: justify;">
+
+Competing is tough but winning is tougher, so I took a look to see if any athlete has won more than once. The table in Figure 8 shows that there have only ever been 3 athletes to win gold in the marathon more than once. Both Abebe Bikila of Ethiopia and Eliud Kipchoge of Kenya improved on their initial win times to win gold at the following Olympics, with Bikila shaving an impressive 3 minutes off his time in just 4 years. Eliud Kipchoge won the most recent Gold medal and with Paris 2024 around the corner could he make history to be the first athlete to win 3 Olympic Marathon Gold Medals?
+
+</div>
+
+## Winning Countries
+
+<div style="text-align: justify;">
+
+Finally, to close off, I took a look at the medal tallies for each country. The full table in [Appendix 6](####Appendix-6:-Country-Medal-Tally) shows that Kenya have won the most medals with 5 Gold, 7 Silver and 3 Bronze medals totaling 15, but are closely followed by the USA with a total of 13 medals then Ethiopia with 11 medals. Figure 9 below  shows that although Ethiopia sit 3rd in the total medals tally they have won the most Gold Medals with 6 compared to Kenya's 5 and the USA only having 4 Gold Medals but 7 Bronze.
+
+</div>
+
+> Figure 9: Country Medal Tally sorted by Number of Gold Medals
+
+| Nationality   |   Gold |   Silver |   Bronze |   Total Medals |
+|:--------------|-------:|---------:|---------:|---------------:|
+| Ethiopia      |      6 |        1 |        4 |             11 |
+| Kenya         |      5 |        7 |        3 |             15 |
+| United States |      4 |        2 |        7 |             13 |
+| Japan         |      3 |        3 |        3 |              9 |
+| France        |      3 |        2 |        0 |              5 |
+
+
+## Bonus: The Ultimate Race
+
+<div style="text-align: justify;">
+
+As a bonus, I have compiled the rankings of the top 10 Olympic Marathon performances to run the ultimate race. The only athlete to appear in the top 10 more than once is Eliud Kipchoge of Kenya placing 5th and 6th in the best-ever Olympic Marathon performances.
+    
+The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad Gharib (2nd) and Samuel Wanjiru (1st) for the men's race and to Naoko Takahashi (3rd), Priscah Jeptoo (2nd) and Tiki Gelana (1st) for the women's race.
+
+> Figure 10: Men's Ultimate Race
+
+|   Year | Location       | Gender   |   Position | Name                     | Nationality   | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:-------------------------|:--------------|:-------------|
+|   2008 | Beijing        | Men      |          1 | Samuel Wanjiru           | Kenya         | 2:06:32      |
+|   2008 | Beijing        | Men      |          2 | Jaouad Gharib            | Morocco       | 2:07:16      |
+|   2012 | London         | Men      |          1 | Stephen Kiprotich        | Uganda        | 2:08:01      |
+|   2012 | London         | Men      |          2 | Abel Kirui               | Kenya         | 2:08:27      |
+|   2020 | Tokyo          | Men      |          1 | Eliud Kipchoge           | Kenya         | 2:08:38      |
+|   2016 | Rio de Janeiro | Men      |          1 | Eliud Kipchoge           | Kenya         | 2:08:44      |
+|   1984 | Los Angeles    | Men      |          1 | Carlos Lopes             | Portugal      | 2:09:21      |
+|   2012 | London         | Men      |          3 | Wilson Kipsang Kiprotich | Kenya         | 2:09:37      |
+|   2016 | Rio de Janeiro | Men      |          2 | Feyisa Lilesa            | Ethiopia      | 2:09:54      |
+|   1976 | Montreal       | Men      |          1 | Waldemar Cierpinski      | East Germany  | 2:09:55      |
+
+> Figure 11: Women's Ultimate Race
+    
+|   Year | Location       | Gender   |   Position | Name                      | Nationality   | Time_Taken   |
+|-------:|:---------------|:---------|-----------:|:--------------------------|:--------------|:-------------|
+|   2012 | London         | Women    |          1 | Tiki Gelana               | Ethiopia      | 2:23:07      |
+|   2012 | London         | Women    |          2 | Priscah Jeptoo            | Kenya         | 2:23:12      |
+|   2000 | Sydney         | Women    |          1 | Naoko Takahashi           | Japan         | 2:23:14      |
+|   2000 | Sydney         | Women    |          2 | Lidia Șimon               | Romania       | 2:23:22      |
+|   2012 | London         | Women    |          3 | Tatyana Petrova Arkhipova | Russia        | 2:23:29      |
+|   2012 | London         | Women    |          4 | Mary Jepkosgei Keitany    | Kenya         | 2:23:56      |
+|   2016 | Rio de Janeiro | Women    |          1 | Jemima Sumgong            | Kenya         | 2:24:04      |
+|   2016 | Rio de Janeiro | Women    |          2 | Eunice Kirwa              | Bahrain       | 2:24:13      |
+|   2016 | Rio de Janeiro | Women    |          3 | Mare Dibaba               | Ethiopia      | 2:24:30      |
+|   2012 | London         | Women    |          5 | Tetyana Hamera-Shmyrko    | Ukraine       | 2:24:32      |
+
+</div>
 
 ## Appendix
-#### Appendix 1: Continents competing over time (number of finishers)
+### Appendix 1: Continents competing over time (number of finishers)
 |   Year | Africa   | Asia   |   Europe | North America   | Oceania   | Other   | South America   |
 |-------:|:---------|:-------|---------:|:----------------|:----------|:--------|:----------------|
 |   1896 | -        | -      |        3 | -               | -         | -       | -               |
@@ -145,7 +269,7 @@ With a time of 2 hours 58 minutes and 50 seconds
 |   2016 | 45       | 68     |       92 | 20              | 6         | 1       | 40              |
 |   2020 | 26       | 26     |       57 | 18              | 8         | 1       | 12              |
 
-#### Appendix 2: Continents competing over time (percentage of finishers)
+### Appendix 2: Continents competing over time (percentage of finishers)
 |   Year | Africa   | Asia   | Europe   | North America   | Oceania   | Other   | South America   |
 |-------:|:---------|:-------|:---------|:----------------|:----------|:--------|:----------------|
 |   1896 | -        | -      | 100%     | -               | -         | -       | -               |
@@ -178,54 +302,158 @@ With a time of 2 hours 58 minutes and 50 seconds
 |   2016 | 16%      | 25%    | 33%      | 7%              | 2%        | -       | 14%             |
 |   2020 | 17%      | 17%    | 38%      | 12%             | 5%        | -       | 8%              |
 
-#### Appdendix 3 - Women Winners
-|   Year | Location       | Gender   | Name               | Time_Taken   | Notes   |
-|-------:|:---------------|:---------|:-------------------|:-------------|:--------|
-|   1984 | Los Angeles    | Women    | Joan Benoit        | 2:24:52      | OR      |
-|   1988 | Seoul          | Women    | Rosa Mota          | 2:25:40      | -       |
-|   1992 | Barcelona      | Women    | Valentina Yegorova | 2:32:41      | -       |
-|   1996 | Atlanta        | Women    | Fatuma Roba        | 2:26:05      | -       |
-|   2000 | Sydney         | Women    | Naoko Takahashi    | 2:23:14      | OR      |
-|   2004 | Athens         | Women    | Mizuki Noguchi     | 2:26:20      | -       |
-|   2008 | Beijing        | Women    | Constantina Diță   | 2:26:44      | -       |
-|   2012 | London         | Women    | Tiki Gelana        | 2:23:07      | OR      |
-|   2016 | Rio de Janeiro | Women    | Jemima Sumgong     | 2:24:04      | -       |
-|   2020 | Tokyo          | Women    | Peres Jepchirchir  | 2:27:20      | -       |
+### Appendix 3: Winning Times
+#### Appendix 3A: Women Winning Times
+|   Year | Location       | Gender   | Name               | Nationality   | Time_Taken   | Notes   |
+|-------:|:---------------|:---------|:-------------------|:--------------|:-------------|:--------|
+|   1984 | Los Angeles    | Women    | Joan Benoit        | United States | 2:24:52      | OR      |
+|   1988 | Seoul          | Women    | Rosa Mota          | Portugal      | 2:25:40      | -       |
+|   1992 | Barcelona      | Women    | Valentina Yegorova | Unified Team  | 2:32:41      | -       |
+|   1996 | Atlanta        | Women    | Fatuma Roba        | Ethiopia      | 2:26:05      | -       |
+|   2000 | Sydney         | Women    | Naoko Takahashi    | Japan         | 2:23:14      | OR      |
+|   2004 | Athens         | Women    | Mizuki Noguchi     | Japan         | 2:26:20      | -       |
+|   2008 | Beijing        | Women    | Constantina Diță   | Romania       | 2:26:44      | -       |
+|   2012 | London         | Women    | Tiki Gelana        | Ethiopia      | 2:23:07      | OR      |
+|   2016 | Rio de Janeiro | Women    | Jemima Sumgong     | Kenya         | 2:24:04      | -       |
+|   2020 | Tokyo          | Women    | Peres Jepchirchir  | Kenya         | 2:27:20      | -       |
+
+#### Appedix 3B: Men Winning Times
+|   Year | Location       | Gender   | Name                | Nationality    | Time_Taken   | Notes   |
+|-------:|:---------------|:---------|:--------------------|:---------------|:-------------|:--------|
+|   1896 | Athens         | Men      | Spyridon Louis      | Greece         | 2:58:50      | OR      |
+|   1900 | Paris          | Men      | Michel Théato       | France         | 2:59:45      | -       |
+|   1904 | St. Louis      | Men      | Thomas Hicks        | United States  | 3:28:53      | -       |
+|   1908 | London         | Men      | Johnny Hayes        | United States  | 2:55:18.4    | WR      |
+|   1912 | Stockholm      | Men      | Ken McArthur        | South Africa   | 2:36:54.8    | OR      |
+|   1920 | Antwerp        | Men      | Hannes Kolehmainen  | Finland        | 2:32:35.8    | WR      |
+|   1924 | Paris          | Men      | Albin Stenroos      | Finland        | 2:41:22.6    | -       |
+|   1928 | Amsterdam      | Men      | Boughera El Ouafi   | France         | 2:32:57      | -       |
+|   1932 | Los Angeles    | Men      | Juan Carlos Zabala  | Argentina      | 2:31:36      | OR      |
+|   1936 | Berlin         | Men      | Kitei Son           | Japan          | 2:29:19.2    | OR      |
+|   1948 | London         | Men      | Delfo Cabrera       | Argentina      | 2:34:51.6    | -       |
+|   1952 | Helsinki       | Men      | Emil Zátopek        | Czechoslovakia | 2:23:03.2    | OR      |
+|   1956 | Melbourne      | Men      | Alain Mimoun        | France         | 2:25:00      | -       |
+|   1960 | Rome           | Men      | Abebe Bikila        | Ethiopia       | 2:15:16.2    | WR      |
+|   1964 | Tokyo          | Men      | Abebe Bikila        | Ethiopia       | 2:12:11.2    | WR      |
+|   1968 | Mexico City    | Men      | Mamo Wolde          | Ethiopia       | 2:20:26      | -       |
+|   1972 | Munich         | Men      | Frank Shorter       | United States  | 2:12:19      | -       |
+|   1976 | Montreal       | Men      | Waldemar Cierpinski | East Germany   | 2:09:55      | OR      |
+|   1980 | Moscow         | Men      | Waldemar Cierpinski | East Germany   | 2:11:03      | -       |
+|   1984 | Los Angeles    | Men      | Carlos Lopes        | Portugal       | 2:09:21      | OR      |
+|   1988 | Seoul          | Men      | Gelindo Bordin      | Italy          | 2:10:32      | -       |
+|   1992 | Barcelona      | Men      | Hwang Young-Cho     | South Korea    | 2:13:23      | -       |
+|   1996 | Atlanta        | Men      | Josia Thugwane      | South Africa   | 2:12:36      | -       |
+|   2000 | Sydney         | Men      | Gezahegne Abera     | Ethiopia       | 2:10:11      | -       |
+|   2004 | Athens         | Men      | Stefano Baldini     | Italy          | 2:10:55      | -       |
+|   2008 | Beijing        | Men      | Samuel Wanjiru      | Kenya          | 2:06:32      | OR      |
+|   2012 | London         | Men      | Stephen Kiprotich   | Uganda         | 2:08:01      | -       |
+|   2016 | Rio de Janeiro | Men      | Eliud Kipchoge      | Kenya          | 2:08:44      | -       |
+|   2020 | Tokyo          | Men      | Eliud Kipchoge      | Kenya          | 2:08:38      | -       |
+
+### Appendix 4: Closest 3 and Easiest 3 Wins
+#### Appendix 4A: Womens competition closest 3 and easiest 3 wins
+|   Year | Location    | Gender   |   Position | Name               | Nationality   | Time_Taken   | Time behind 1st                               |
+|-------:|:------------|:---------|-----------:|:-------------------|:--------------|:-------------|:----------------------------------------------|
+|   2012 | London      | Women    |          2 | Priscah Jeptoo     | Kenya         | 2:23:12      | 0 minutes, 5 seconds, 0 hundredths of second  |
+|   1992 | Barcelona   | Women    |          2 | Yuko Arimori       | Japan         | 2:32:49      | 0 minutes, 8 seconds, 0 hundredths of second  |
+|   2000 | Sydney      | Women    |          2 | Lidia Șimon        | Romania       | 2:23:22      | 0 minutes, 8 seconds, 0 hundredths of second  |
+|   2008 | Beijing     | Women    |          2 | Catherine Ndereba  | Kenya         | 2:27:06      | 0 minutes, 22 seconds, 0 hundredths of second |
+|   1984 | Los Angeles | Women    |          2 | Grete Waitz        | Norway        | 2:26:18      | 1 minutes, 26 seconds, 0 hundredths of second |
+|   1996 | Atlanta     | Women    |          2 | Valentina Yegorova | Russia        | 2:28:05      | 2 minutes, 0 seconds, 0 hundredths of second  |
+
+#### Appendix 4B: Mens competition closest 3 and easiest 3 wins
+|   Year | Location   | Gender   |   Position | Name                | Nationality   | Time_Taken   | Time behind 1st                                |
+|-------:|:-----------|:---------|-----------:|:--------------------|:--------------|:-------------|:-----------------------------------------------|
+|   1996 | Atlanta    | Men      |          2 | Lee Bong-ju         | South Korea   | 2:12:39      | 0 minutes, 3 seconds, 0 hundredths of second   |
+|   1920 | Antwerp    | Men      |          2 | Jüri Lossmann       | Estonia       | 2:32:48.6    | 0 minutes, 12 seconds, 80 hundredths of second |
+|   1988 | Seoul      | Men      |          2 | Douglas Wakiihuri   | Kenya         | 2:10:47      | 0 minutes, 15 seconds, 0 hundredths of second  |
+|   1924 | Paris      | Men      |          2 | Romeo Bertini       | Italy         | 2:47:19.6    | 5 minutes, 57 seconds, 0 hundredths of second  |
+|   1904 | St. Louis  | Men      |          2 | Albert Corey        | France        | 3:34:52      | 5 minutes, 59 seconds, 0 hundredths of second  |
+|   1896 | Athens     | Men      |          2 | Charilaos Vasilakos | Greece        | 3:06:03      | 7 minutes, 13 seconds, 0 hundredths of second  |
 
 
-## Plots
-![Gender Average Time Difference](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true)
 
-![Medal Times](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/medal_times_plot.png?raw=true)
 
+### Appendix 5: Closest 3 and Easiest 3 Second Places
+#### Appendix 5A: Womens competition closest 3 and easiest 3 second Places
+|   Year | Location   | Gender   |   Position | Name                      | Nationality   | Time_Taken   | Time behind 2nd                               |
+|-------:|:-----------|:---------|-----------:|:--------------------------|:--------------|:-------------|:----------------------------------------------|
+|   2008 | Beijing    | Women    |          3 | Zhou Chunxiu              | China         | 2:27:07      | 0 minutes, 1 seconds, 0 hundredths of second  |
+|   2020 | Tokyo      | Women    |          3 | Molly Seidel              | United States | 2:27:46      | 0 minutes, 10 seconds, 0 hundredths of second |
+|   2012 | London     | Women    |          3 | Tatyana Petrova Arkhipova | Russia        | 2:23:29      | 0 minutes, 17 seconds, 0 hundredths of second |
+|   2004 | Athens     | Women    |          3 | Deena Kastor              | United States | 2:27:20      | 0 minutes, 48 seconds, 0 hundredths of second |
+|   1992 | Barcelona  | Women    |          3 | Lorraine Moller           | New Zealand   | 2:33:59      | 1 minutes, 10 seconds, 0 hundredths of second |
+|   2000 | Sydney     | Women    |          3 | Joyce Chepchumba          | Kenya         | 2:24:45      | 1 minutes, 23 seconds, 0 hundredths of second |
+
+#### Appendix 5B: Mens competition closest 3 and easiest 3 second Places
+|   Year | Location    | Gender   |   Position | Name              | Nationality   | Time_Taken   | Time behind 2nd                                |
+|-------:|:------------|:---------|-----------:|:------------------|:--------------|:-------------|:-----------------------------------------------|
+|   2020 | Tokyo       | Men      |          3 | Bashir Abdi       | Belgium       | 2:10:00      | 0 minutes, 2 seconds, 0 hundredths of second   |
+|   1984 | Los Angeles | Men      |          3 | Charlie Spedding  | Great Britain | 2:09:58      | 0 minutes, 2 seconds, 0 hundredths of second   |
+|   1964 | Tokyo       | Men      |          3 | Kōkichi Tsuburaya | Japan         | 2:16:22.8    | 0 minutes, 3 seconds, 60 hundredths of second  |
+|   1920 | Antwerp     | Men      |          3 | Valerio Arri      | Italy         | 2:36:32.8    | 3 minutes, 44 seconds, 20 hundredths of second |
+|   1904 | St. Louis   | Men      |          3 | Arthur Newton     | United States | 3:47:33      | 12 minutes, 41 seconds, 0 hundredths of second |
+|   1900 | Paris       | Men      |          3 | Ernst Fast        | Sweden        | 3:37:14      | 32 minutes, 57 seconds, 0 hundredths of second |
+
+### Appendix 6: Country Medal Tally
+| Nationality    | Gold   | Silver   | Bronze   |   Total Medals |
+|:---------------|:-------|:---------|:---------|---------------:|
+| Kenya          | 5      | 7        | 3        |             15 |
+| United States  | 4      | 2        | 7        |             13 |
+| Ethiopia       | 6      | 1        | 4        |             11 |
+| Japan          | 3      | 3        | 3        |              9 |
+| Finland        | 2      | -        | 3        |              5 |
+| Great Britain  | -      | 4        | 1        |              5 |
+| France         | 3      | 2        | -        |              5 |
+| Belgium        | -      | 1        | 3        |              4 |
+| Italy          | 2      | 1        | 1        |              4 |
+| South Africa   | 2      | 2        | -        |              4 |
+| Portugal       | 2      | -        | 1        |              3 |
+| Argentina      | 2      | 1        | -        |              3 |
+| East Germany   | 2      | -        | 1        |              3 |
+| New Zealand    | -      | -        | 3        |              3 |
+| Russia         | -      | 1        | 1        |              2 |
+| South Korea    | 1      | 1        | -        |              2 |
+| Greece         | 1      | 1        | -        |              2 |
+| Romania        | 1      | 1        | -        |              2 |
+| Sweden         | -      | -        | 2        |              2 |
+| Morocco        | -      | 2        | -        |              2 |
+| Netherlands    | -      | 2        | -        |              2 |
+| Norway         | -      | 1        | -        |              1 |
+| Soviet Union   | -      | -        | 1        |              1 |
+| Uganda         | 1      | -        | -        |              1 |
+| Unified Team   | 1      | -        | -        |              1 |
+| Ireland        | -      | 1        | -        |              1 |
+| Australia      | -      | 1        | -        |              1 |
+| Hungary        | -      | -        | 1        |              1 |
+| Germany        | -      | -        | 1        |              1 |
+| Estonia        | -      | 1        | -        |              1 |
+| Djibouti       | -      | -        | 1        |              1 |
+| Czechoslovakia | 1      | -        | -        |              1 |
+| China          | -      | -        | 1        |              1 |
+| Chile          | -      | 1        | -        |              1 |
+| Brazil         | -      | -        | 1        |              1 |
+| Bahrain        | -      | 1        | -        |              1 |
+| Yugoslavia     | -      | 1        | -        |              1 |
+
+## Plots (Full Size)
+
+### Figure 1
+![Number of Male Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/men_total_finishers_plot.png?raw=true)
+
+![Number of Female Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/women_total_finishers_plot.png?raw=true)
+
+### Figure 2
 ![Number of Finishers by Continent](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_by_continent_stacked_plot.png?raw=true)
 
-![Number of Male Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true)
 
-![Number of Female Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true)
-
+### Figure 4
 ![Winning Times and Records](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/winning_times_plot.png?raw=true)
 
+### Figure 5
+![Medal Times](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/medal_times_plot.png?raw=true)
 
-## Markdown Tables
+### Figure 6
+![Gender Average Time Difference](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true)
 
-
-
-#### Other Continents
-|   Year | Location       | Gender   |   Position | Name                  | Nationality                  | Time_Taken   |
-|-------:|:---------------|:---------|-----------:|:----------------------|:-----------------------------|:-------------|
-|   1992 | Barcelona      | Men      |         22 | Yakov Tolstikov       | Unified Team                 | 2:17:04      |
-|   1992 | Barcelona      | Women    |          1 | Valentina Yegorova    | Unified Team                 | 2:32:41      |
-|   1992 | Barcelona      | Women    |          8 | Ramilya Burangulova   | Unified Team                 | 2:38:46      |
-|   2000 | Sydney         | Men      |         71 | Calisto da Costa      | Individual Olympic Athletes  | 2:33:11      |
-|   2000 | Sydney         | Women    |         43 | Aguida Amaral         | Individual Olympic Athletes  | 3:10:55      |
-|   2012 | London         | Men      |         47 | Guor Marial           | Independent Olympic Athletes | 2:19:32      |
-|   2016 | Rio de Janeiro | Men      |         89 | Yonas Kinde           | Refugee Olympic Team         | 2:24:08      |
-|   2020 | Tokyo          | Men      |         16 | Tachlowini Gabriyesos | Refugee Olympic Team         | 2:14:02      |
-
-
-
-
-
-
-
+## References

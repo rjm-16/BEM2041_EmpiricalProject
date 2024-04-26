@@ -242,7 +242,7 @@ for gender in genders:
         locations = locations[-10:]
     
     # Creating and opening csv file to write the extracted data to
-    with open(f'olympics_marathon_{gender.lower()}.csv', 'w', encoding='utf-8') as file:
+    with open(f'olympic_marathon_data_{gender.lower()}.csv', 'w', encoding='utf-8') as file:
         
         # Looping through years and retrieving the corresponding location
         for index, year in enumerate(years):
@@ -472,6 +472,6 @@ countries_continents = [
 ]
 
 # Creating and opening csv file to write countries and corresponding continents to
-with open('countries_and_continents_final_version.csv', 'w') as file:
+with open('countries_and_continents.csv', 'w') as file:
     for country in countries_continents:
         file.write(','.join(country) + '\n')

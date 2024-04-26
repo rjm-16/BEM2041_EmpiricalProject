@@ -41,8 +41,8 @@ CREATE TABLE Mens_temp (
 -- Import data from csv files created in the webscraping
 .separator ','
 .import countries_and_continents.csv Countries_Continents
-.import olympics_marathon_women.csv Womens_temp
-.import olympics_marathon_men.csv Mens_temp
+.import olympic_marathon_data_women.csv Womens_temp
+.import olympic_marathon_data_men.csv Mens_temp
 
 -- Modify schema to add a column with the gender
 ALTER TABLE Womens_temp
@@ -108,7 +108,7 @@ JOIN Countries_Continents cc ON cd.Nationality = cc.Country;
 
 -- Chaning output mode to be able to write combined data into a csv file
 .mode csv
-.output marathon_combined_data.csv
+.output olympic_marathon_combined_data.csv
 SELECT * FROM Combined_Data;
 
 -- Reset output mode
