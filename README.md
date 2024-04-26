@@ -10,7 +10,7 @@
 
 This project is looking at the data on finishers of the marathon at the Olympic Games since 1896.
 This project consists of a Python script for scraping data about the Olympic Marathon from Wikipedia, an SQL script for processing the scraped data, and a Jupyter Notebook for data analysis and creating visualisations. 
-The output of the Jupyter Notebook is stored in a directories named '/figures' and '/tables'. 
+The outputs of the Jupyter Notebook is stored in directories named '/figures' and '/tables'. 
 Finally, the project is uploaded to a GitHub repository, and a HackMD file is used to embed the plots in a blog post.
 
 
@@ -25,7 +25,7 @@ Finally, the project is uploaded to a GitHub repository, and a HackMD file is us
 
 ## 1. Python Scraping Script (`marathon_data_scrape.py`)
 
-The Python script scrapes data on the finishers of marathons at the Olympics from Wikipedia. It extracts data from Wikipedia pages for different years and genders, processes the data, and exports it as two CSV files (one for each gender). The script also creates a CSV file of all the countries and corresponding continents of each runners nationality.
+The Python script scrapes data on the finishers of marathons at the Olympics from Wikipedia. It extracts data from Wikipedia pages for different years and genders, processes the data, and exports it as two CSV files (one for each gender). The script also creates a CSV file of all the countries and corresponding continents of each runner's nationality.
 
 ## 2. SQL Processing Script (`create_marathon_tables.sql`)
 
@@ -54,9 +54,9 @@ To run this project, ensure you have Python, SQLite, Jupyter Notebook, and the r
 This has been tested using Python 3.9.13
 
 Python Packages along with the version number used to generate original results:
- > matplotlib 3.5.2
- > numpy 1.21.5
- > pandas 1.4.4
+- matplotlib 3.5.2
+- numpy 1.21.5
+- pandas 1.4.4
 
 ## About
 
