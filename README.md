@@ -1,11 +1,8 @@
 --------------------------------------------------------------------------------
 # BEM2041_EmpiricalProject
 # Student ID: 710011110
+### Date: 2024-04-25
 --------------------------------------------------------------------------------
-# Project README
-## Date: 2024-04-25
-
-
 ## Introduction
 
 This project is looking at the data on finishers of the marathon at the Olympic Games since 1896.
