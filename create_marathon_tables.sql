@@ -11,9 +11,10 @@ DROP TABLE IF EXISTS Combined_Data_temp;
 DROP TABLE IF EXISTS Combined_Data;
 
 -- Create a schema
+
 CREATE TABLE Countries_Continents (
-        Country VARCHAR(30) PRIMARY KEY NOT NULL,
-        Continent VARCHAR(20) NOT NULL
+	Country VARCHAR(30) PRIMARY KEY NOT NULL,
+	Continent VARCHAR(20) NOT NULL
 );
 
 CREATE TABLE Womens_temp (
