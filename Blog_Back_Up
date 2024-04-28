@@ -1,34 +1,37 @@
 <center>
     
 # The Unique History of the Olympic Marathon
+
     
 </center>
 
 <div style="text-align: justify;">
     
-#### With the Paris 2024 Olympic Games fast approaching and the London Marathon last weekend, for this blog I decided to merge the two and take a deep dive into the history of the Marathon at the Olympic Games. 
+#### With the Paris 2024 Olympic Games fast approaching and the London Marathon last weekend, for this blog I decided to merge the two and take a deep dive into the history of the marathon at the Olympic Games. 
+    
 </div>
 
-> :spiral_note_pad: For the following analysis, I have only used data for athletes who finished the Marathon with a recorded time for every Olympic Games from Athens 1896 to Tokyo 2020.
+> :spiral_note_pad: For the following analysis, I have only used data for athletes who finished the Marathon with a recorded time for every Olympic Games between Athens 1896 and Tokyo 2020.
 
-## The Marathon and its Origin Story
+## The Marathon and its Origin Story 
+
 
 <div style="text-align: justify;">
 
-The marathon stems from the myth about Pheidippides, a Greek messenger who ran from Marathon to Athens in 490BC to proclaim "Rejoice, we win" referring to a battle against the invading Persians. After delivering his important message he died of exhaustion "after sprinting the 25 miles to Athens" ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')).
+The marathon stems from the Greek myth about Pheidippides, a  messenger who ran from Marathon to Athens in 490BC to proclaim "Rejoice, we win" referring to a battle against the invading Persians. After delivering his important message he died of exhaustion "after sprinting the 25 miles to Athens" ([Klein, 2021](https://www.history.com/news/the-olympic-marathons-outlandish-early-history) <sup> [[1]](###References)</sup>).
 
-First run at the 1896 Olympics in Athens, the inaugural modern Olympic Games, the finish line was in the Panathenaic Stadium roughly 40km away from the start in Marathon ([Klein, 2021]('https://www.history.com/news/the-olympic-marathons-outlandish-early-history')). The well-known distance  of 26 miles and 385 yards (42.195km) was later solidified at the 1908 Olympics in London, with the start line in Windsor and the finish line in front of the Royal Box in the Olympic Stadium in London.
+First run at the 1896 Olympics in Athens, the inaugural modern Olympic Games, the finish lineof the marathon event was in the Panathenaic Stadium roughly 40km away from the start in Marathon ([Klein, 2021](https://www.history.com/news/the-olympic-marathons-outlandish-early-history) <sup> [[1]](###References)</sup>). The well-known distance  of 26 miles and 385 yards (42.195km) was later solidified at the 1908 Olympics in London, with the start line in Windsor and the finish line in front of the Royal Box in the Olympic Stadium in London.
 
-The Marathon at the Olympics has an infamous history of being one of the more eventful races, especially in the early years with the 1904 Paris Olympics being one of the strangest races. The initial winner was later disqualified for having a lift from his trainer in a car for 11 out of the 24 miles before finishing the last 6 miles and claiming the victory. ... who crossed the line second to later be announced the winner was carried across the finish line by his training team before collapsing from exhaustion. ..., a postman from Cuba, who hitchhiked his way to the games after losing all his money gambling in St Louis finished 4th, even after eating some rotten apples in an orchard and taking a 20-minute nap to ease the resulting stomach cramps before continuing and finishing the race. 
+The Marathon at the Olympics has an infamous history of being one of the more eventful races, especially in the early years with the 1900 St Louis Olympics being one of the strangest races. The initial winner was later disqualified for having a lift from his trainer in a car for 11 out of the 24 miles before getting out and finishing the race to claim the victory before the officials found out. Spyridon Louis, who crossed the line second to later be announced the winner, was carried across the finish line by his training team before collapsing from exhaustion. And finally Félix Carbajal, a postman from Cuba, who hitchhiked his way to the games after losing all his money gambling in New Orleans finished 4th, even after eating some rotten apples in an orchard and taking a nap to ease the resulting stomach cramps before continuing and finishing the race ([International Olympic Committee, 2021](https://olympics.com/en/news/st-louis-marathon-the-strangest-race-in-olympic-history)<sup> [[2]](###References)</sup>).
 
-The longest official time to finish the Marathon was 54 years 8 months 6 days 5 hours 32 minutes and 20 seconds by Shizo Kanakuri from Japan who after tiring, dropped out of the race but ashamed of his performance didn't inform any race officials and returned home to Japan. Placed on the missing persons list of Sweden for over 50 years he was found and invited to finish his marathon 54 years later.
+The longest official time to finish the Marathon was 54 years 8 months 6 days 5 hours 32 minutes and 20 seconds by Shizo Kanakuri from Japan who after tiring, dropped out of the race but ashamed of his performance didn't inform any race officials and returned home to Japan. Invited back by the Swedish Olympic Committee in 1967, Kanakuri finished his marathon 54 years later ([International Olympic Committee, 2020](https://olympics.com/en/news/japans-olympic-marathoners) <sup> [[3]](###References)</sup>). 
 
 #### 54 year marathon:
 |   Year | Location   | Gender   | Name           | Nationality   | Time_Taken          |
 |-------:|:-----------|:---------|:---------------|:--------------|:--------------------|
 |   1912 | Stockholm  | Men      | Shizo Kanakuri | Japan         | 54:08:06:05:32:20.3 |
 
-I removed this row from my data as it is a large anomaly which could put into question the reliability of my further analysis. 
+Above shows the details of Kanakuri's 54 year marathon. I removed this row from my data as it is a large anomaly which could put into question the reliability of my further analysis. 
 
 The Marathon has come a long way from its early years and is now a highly competitive race that has seen vast improvements in the finishing times since its start in 1896. This is what I am going to delve deeper into in this blog!
 </div>
@@ -43,10 +46,10 @@ To begin, I looked at the total number of finishers for each of the races since 
 > Figure 1: Number of Finishers by Gender
 
 <div style="float: left;">
-    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/men_total_finishers_plot.png?raw=true" width="500" height="275">
+    <img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true" width="500" height="275">
 </div>
 
-<img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/women_total_finishers_plot.png?raw=true" width="210" height="275">
+<img src="https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true" width="210" height="275">
 
 As can be seen in Figure 1 the number of successful finishers has increased dramatically since the inaugural marathon in Athens where only 3 runners finished with official times compared to the 139 male finishers and 133 female finishers (totaling 272 finishers) in the 2016 Rio de Janeiro Olympics. The number of finishers for the first three years was in the single figures, then from the 1908 London Olympics, the number of finishers increased and remained roughly between 20 to 40 before another step up from the 1960 Rome Olympics to around 60 before a final increase to between 70 to 100 finishers from the 1984 Los Angeles Olympics. Additionally, it has only been since the 1984 Los Angeles Olympics that women have competed in the marathon. The women's race  had slightly fewer finishers than the men's until the 2012 London Olympics where there were 22 more finishers, and since then the number of finishers with a recorded time for both men and women have been very similar.
 
@@ -74,7 +77,7 @@ Figure 2 shows the combined male and female finishers each year split by their c
 
 <div style="text-align: justify;">
     
-The [Unified Team](https://www.olympedia.org/countries/EUN) competing in the 1992 Barcelona Olympics was a joint team consisting of all bar three of the former Soviet Republics after the Soviet Revolution of 1991 [(Olympedia)](https://www.olympedia.org/countries/EUN). The [Individual Olympic Athletes](https://en.wikipedia.org/wiki/Individual_Olympic_Athletes_at_the_2000_Summer_Olympics) and [Independent Olympic Athletes](https://en.wikipedia.org/wiki/Independent_Olympic_Athletes_at_the_2012_Summer_Olympics) competing were athletes from East Timor in Sydney 2000 and athletes from South Sudan in London 2012 respectively. The athletes from South Sudan competed under the Olympic flag as the newly formed state "had not yet set up an Olympic Committee" [(Olympedia)](https://www.olympedia.org/countries/IOA). The [Refugee Olympic Team](https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_Olympics) was first introduced in the 2016 Olympics to send "a message of hope and inclusion to millions of forcibly displaced people around the world and inspiring the world with the strength of their human spirit" [(Olympics.com)](https://olympics.com/ioc/refugee-olympic-team). [Yonas Kinde](https://olympics.com/en/athletes/yonas-kinde) of Ethiopian decent and [Tachlowini Gabriyesos](https://olympics.com/en/athletes/tachlowini-gabiyesos) of Eritrean decent competed in the 2016 and 2020 marathons respectively for the Refugee Olympic Team  as shown in Figure 3.
+The [Unified Team](https://www.olympedia.org/countries/EUN)<sup> [[4]](###References)</sup> competing in the 1992 Barcelona Olympics was a joint team consisting of all bar three of the former Soviet Republics after the Soviet Revolution of 1991 ([Olympedia](https://www.olympedia.org/countries/EUN)<sup> [[4]](###References)</sup>). The [Individual Olympic Athletes](https://en.wikipedia.org/wiki/Individual_Olympic_Athletes_at_the_2000_Summer_Olympics)<sup> [[5]](###References)</sup> and [Independent Olympic Athletes](https://en.wikipedia.org/wiki/Independent_Olympic_Athletes_at_the_2012_Summer_Olympics)<sup> [[6]](###References)</sup> competing were athletes from East Timor in Sydney 2000 and athletes from South Sudan in London 2012 respectively. The athletes from South Sudan competed under the Olympic flag as the newly formed state "had not yet set up an Olympic Committee" ([Olympedia](https://www.olympedia.org/countries/IOA)<sup> [[7]](###References)</sup>). The [Refugee Olympic Team](https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_Olympics)<sup> [[8]](###References)</sup> was first introduced in the 2016 Olympics to send "a message of hope and inclusion to millions of forcibly displaced people around the world and inspiring the world with the strength of their human spirit" ([International Olympic Committee, 2021](https://olympics.com/ioc/refugee-olympic-team)<sup> [[9]](###References)</sup>). [Yonas Kinde](https://olympics.com/en/athletes/yonas-kinde)<sup> [[10]](###References)</sup> of Ethiopian decent and [Tachlowini Gabriyesos](https://olympics.com/en/athletes/tachlowini-gabiyesos)<sup> [[11]](###References)</sup> of Eritrean decent competed in the 2016 and 2020 marathons respectively for the Refugee Olympic Team  as shown in Figure 3.
     
 </div>
 
@@ -94,7 +97,7 @@ Next, I decided to dig into the data to look at how the times changed over the y
 
 <div style="text-align: justify;">
 
-With a time of 2 hours 58 minutes and 50 seconds, setting the first Olympic Record, the Greek Spyridon Louis won the inaugural marathon in Athens in 1896. 112 years later the current male Olympic Record was set by Samuel Wanjiru, at Beijing 2008, finishing almost a whole hour faster than Louis in 1896. As Figure 4 shows, winning times for the men's competition rapidly improved from nearly 3 hours and 30 minutes in Paris 1900 to 2 hours and 36 minutes in Stockholm 1912. Since then the winning times gradually improved before plateauing around 2 hours 10 minutes from Montreal 1976. The inaugural women's Olympic marathon, at the Los Angeles Games in 1984, was won by Joan Benoit of the USA in a time of 2 hours 24 minutes, and 52 seconds. The Olympic Record was beaten in Sydney 2000 by Naoko Takahashi of ... and then broken again in London 2012 by ... Tiki Gelana who holds the current women's marathon Olympic record of 2 hours 23 minutes and 7 seconds.
+With a time of 2 hours 58 minutes and 50 seconds, setting the first Olympic Record, the Greek Spyridon Louis won the inaugural marathon in Athens in 1896. 112 years later the current male Olympic Record was set by Samuel Wanjiru, at Beijing 2008, finishing almost a whole hour faster than Louis in 1896. As Figure 4 shows, winning times for the men's competition rapidly improved from nearly 3 hours and 30 minutes in Paris 1900 to 2 hours and 36 minutes in Stockholm 1912. Since then the winning times gradually improved before plateauing around 2 hours 10 minutes from Montreal 1976. The inaugural women's Olympic marathon, at the Los Angeles Games in 1984, was won by Joan Benoit of the USA in a time of 2 hours 24 minutes, and 52 seconds. The Olympic Record was beaten in Sydney 2000 by Naoko Takahashi of Japan and then broken again in London 2012 by, Ethoipian, Tiki Gelana who holds the current women's marathon Olympic record of 2 hours 23 minutes and 7 seconds.
 </div>
 
 > Figure 5: Medal Times (1896-2020)
@@ -199,7 +202,7 @@ Finally, to close off, I took a look at the medal tallies for each country. The 
 
 <div style="text-align: justify;">
 
-As a bonus, I have compiled the rankings of the top 10 Olympic Marathon performances to run the ultimate race. The only athlete to appear in the top 10 more than once is Eliud Kipchoge of Kenya placing 5th and 6th in the best-ever Olympic Marathon performances.
+As a bonus, I have compiled the rankings of the top 6 Olympic Marathon performances to run the ultimate race. The only athlete to appear in the top 6 more than once is Eliud Kipchoge of Kenya placing 5th and 6th in the best-ever Olympic Marathon performances.
     
 The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad Gharib (2nd) and Samuel Wanjiru (1st) for the men's race and to Naoko Takahashi (3rd), Priscah Jeptoo (2nd) and Tiki Gelana (1st) for the women's race.
 
@@ -213,10 +216,7 @@ The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad
 |   2012 | London         | Men      |          2 | Abel Kirui               | Kenya         | 2:08:27      |
 |   2020 | Tokyo          | Men      |          1 | Eliud Kipchoge           | Kenya         | 2:08:38      |
 |   2016 | Rio de Janeiro | Men      |          1 | Eliud Kipchoge           | Kenya         | 2:08:44      |
-|   1984 | Los Angeles    | Men      |          1 | Carlos Lopes             | Portugal      | 2:09:21      |
-|   2012 | London         | Men      |          3 | Wilson Kipsang Kiprotich | Kenya         | 2:09:37      |
-|   2016 | Rio de Janeiro | Men      |          2 | Feyisa Lilesa            | Ethiopia      | 2:09:54      |
-|   1976 | Montreal       | Men      |          1 | Waldemar Cierpinski      | East Germany  | 2:09:55      |
+
 
 > Figure 11: Women's Ultimate Race
     
@@ -228,10 +228,8 @@ The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad
 |   2000 | Sydney         | Women    |          2 | Lidia Șimon               | Romania       | 2:23:22      |
 |   2012 | London         | Women    |          3 | Tatyana Petrova Arkhipova | Russia        | 2:23:29      |
 |   2012 | London         | Women    |          4 | Mary Jepkosgei Keitany    | Kenya         | 2:23:56      |
-|   2016 | Rio de Janeiro | Women    |          1 | Jemima Sumgong            | Kenya         | 2:24:04      |
-|   2016 | Rio de Janeiro | Women    |          2 | Eunice Kirwa              | Bahrain       | 2:24:13      |
-|   2016 | Rio de Janeiro | Women    |          3 | Mare Dibaba               | Ethiopia      | 2:24:30      |
-|   2012 | London         | Women    |          5 | Tetyana Hamera-Shmyrko    | Ukraine       | 2:24:32      |
+
+
 
 </div>
 
@@ -373,7 +371,6 @@ The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad
 
 
 
-
 ### Appendix 5: Closest 3 and Easiest 3 Second Places
 #### Appendix 5A: Womens competition closest 3 and easiest 3 second Places
 |   Year | Location   | Gender   |   Position | Name                      | Nationality   | Time_Taken   | Time behind 2nd                               |
@@ -439,9 +436,9 @@ The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad
 ## Plots (Full Size)
 
 ### Figure 1
-![Number of Male Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/men_total_finishers_plot.png?raw=true)
+![Number of Male Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_men_plot.png?raw=true)
 
-![Number of Female Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/women_total_finishers_plot.png?raw=true)
+![Number of Female Finishers](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_women_plot.png?raw=true)
 
 ### Figure 2
 ![Number of Finishers by Continent](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/total_finishers_by_continent_stacked_plot.png?raw=true)
@@ -457,3 +454,31 @@ The overall Bronze, Silver and Gold Medals go to Stephen Kiprotich (3rd), Jaouad
 ![Gender Average Time Difference](https://github.com/rjm-16/BEM2041_EmpiricalProject/blob/main/figures/gender_average_time_difference_plot.png?raw=true)
 
 ## References
+
+[1] Klein, C. (2021, July 13). *The Olympic Marathon’s Outlandish Early History*. HISTORY. https://www.history.com/news/the-olympic-marathons-outlandish-early-history (Accessed 25/04/2024)
+
+[2] International Olympic Committee. (2021, August 7). *St. Louis marathon: The strangest race in Olympic history*. Olympics.com; International Olympic Committee. https://olympics.com/en/news/st-louis-marathon-the-strangest-race-in-olympic-history (Accessed 25/04/2024)
+
+[3] International Olympic Committee. (2020, October 4). *Japan's Olympic marathoners*. Olympics.com; International Olympic Committee. https://olympics.com/en/news/japans-olympic-marathoners (Accessed 25/04/2024)
+
+[4] *Olympedia – Unified Team (EUN)*. www.olympedia.org. https://www.olympedia.org/countries/EUN (Accessed 25/04/2024)
+
+[5] *Individual Olympic Athletes at the 2000 Summer Olympics*. Wikipedia. https://en.wikipedia.org/wiki/Individual_Olympic_Athletes_at_the_2000_Summer_Olympics (Accessed 25/04/2024)
+
+[6] *Independent Olympic Athletes at the 2012 Summer Olympics.* Wikipedia. https://en.wikipedia.org/wiki/Independent_Olympic_Athletes_at_the_2012_Summer_Olympics (Accessed 25/04/2024)
+
+[7] *Olympedia – Independent Olympic Athletes (IOA)*. www.olympedia.org. https://www.olympedia.org/countries/IOA (Accessed 25/04/2024)
+
+[8] *Refugee Olympic Team at the Olympics*. Wikipedia. https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_Olympics (Accessed 25/04/2024)
+
+[9] International Olympic Committee. (2021, July 14). *Refugee Olympic Team*. International Olympic Committee. https://olympics.com/ioc/refugee-olympic-team (Accessed 25/04/2024) 
+
+[10] *Yondas KINDE Biography, Olympic Medals, Records and Age.* Olympics.com. https://olympics.com/en/athletes/yonas-kinde (Accessed 25/04/2024)
+
+[11] *Tachlowini GABRIYESOS Biography, Olympic Medals, Records and Age.* Olympics.com. https://olympics.com/en/athletes/tachlowini-gabiyesos (Accessed 25/04/2024)
+
+‌
+
+‌
+
+‌
