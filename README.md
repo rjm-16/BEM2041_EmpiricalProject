@@ -18,7 +18,7 @@ Finally, the project is uploaded to a GitHub repository, and a blog post is writ
 3. Jupyter Notebook (`marathon_data_analysis.ipynb`)
 4. Figures Directory (`/figures`)
 5. Tables Directory (`/tables`)
-6. HackMD Blog Post (https://hackmd.io/@dQHzyA4YQAa_oNEvWkRADA/r1MpwKZlC)
+6. HackMD Blog Post (`Blog_Back_Up.txt`)
 
 ## 1. Python Scraping Script (`marathon_data_scrape.py`)
 
